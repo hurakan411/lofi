@@ -1,0 +1,107 @@
+{
+  "file": "rank-3-foreground-v3.gif",
+  "dimensions": [
+    600,
+    1300
+  ],
+  "frames": 2400,
+  "durationMilliseconds": 120000,
+  "loop": "infinite",
+  "bytes": 39944145,
+  "regionUniqueFrames": {
+    "water": 240,
+    "office": 1293,
+    "hair_while_writing": 80,
+    "knees_feet_while_writing": 1,
+    "noren": 240,
+    "hidden_upper_world": 1,
+    "fixed_left_wall": 1,
+    "closed_door_edge": 1,
+    "desk_edge": 1,
+    "front_rail": 1,
+    "fern_left": 120,
+    "fern_center": 240,
+    "undergrowth_right": 241,
+    "paving_light": 240,
+    "white_fox_tail": 240,
+    "yellow_fox_tail": 240,
+    "fixed_basin_rim": 1,
+    "fixed_bamboo": 1
+  },
+  "writingDirection": "upper-left to lower-right",
+  "armConnectivityFixtures": [
+    {
+      "time": 0,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6705
+    },
+    {
+      "time": 0.6,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6643
+    },
+    {
+      "time": 1.2,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6577
+    },
+    {
+      "time": 1.8,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6537
+    },
+    {
+      "time": 2.35,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6533
+    },
+    {
+      "time": 2.7,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6635
+    }
+  ],
+  "keyPoseCount": 48,
+  "thoughtKeyPoses": 24,
+  "napKeyPoses": 24,
+  "motionAlignedInbetweens": true,
+  "armsCrossedHoldSeconds": 2.5,
+  "thoughtCueEverySeconds": 15,
+  "sleepOverridesThoughtCue": true,
+  "napIntervalSeconds": 40,
+  "napDurationSeconds": 10,
+  "napFramesPerVisit": 200,
+  "noStandingEntryExitOrStamping": true,
+  "fixedFurnitureAndBackdrop": true,
+  "rank2CorePixelsAndTimelinePreserved": true,
+  "newPlantsMoveIndependently": true,
+  "plantTipAmplitudesPixels": [
+    6,
+    7.5,
+    7
+  ],
+  "twoRestingFoxes": [
+    "ivory white",
+    "golden yellow"
+  ],
+  "foxBodiesFixed": true,
+  "whiteFoxSeatedLookingUphill": true,
+  "whiteFoxMovedForwardPixels": 65,
+  "lightingCycleSeconds": 12,
+  "lightingFinalHoldSeconds": 0.6,
+  "lightAtBoundaryMatchesStartExactly": true,
+  "foxTailsConnectedAndAnimated": true,
+  "dappledSunlightMovesWithoutResamplingStoneTexture": true,
+  "plantPeriodsSeconds": [
+    6,
+    12,
+    12
+  ],
+  "newReveal": [
+    "stone basin and rim",
+    "bamboo spout",
+    "mossy stone and shallow paving",
+    "foreground plants"
+  ],
+  "futureRankSceneryHidden": true
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "image": "Create a redesigned FINAL RANK 5 for this growing lofi forge world. Image 1 is the APPROVED visual style and small machine design; Image 2 is the larger workshop-quarter scale/composition reference ONLY. Use Image 1's soft pixel-painted textures, muted indigo shadows and cozy amber light, not glossy 3D. Pure BLACK background, circular worn stone miniature island fully visible with breathing room. Portrait composition, elevated three-quarter camera. Absolutely NO PEOPLE or animals anywhere. A rich tiny autonomous repair WORKSHOP QUARTER, four timber/brick workshops grouped around an open cobbled courtyard with gentle height differences, rear two-storey atelier, covered upper passage, outdoor steps. Lots of readable animation-ready features, arranged so moving parts don't overlap: FRONT LEFT workshop, open facade, glowing old brick forge, leather bellows and a small sewing-machine-sized belt-driven hammer sitting on a bench with hot orange iron under its vertical head; FRONT RIGHT workshop, open facade, stone grinding wheel with exposed circular stone face and modest finishing bench; CENTER BACK courtyard wall, a prominent large old bronze spoked DRIVE WHEEL on a fixed axle, clearly fully visible nearly front-on, with leather belts leading to the workshops, can rotate in place; upper rear atelier balcony a SECOND tiny belt-driven hammer with a visible vertical head over warm iron, separate from other machines. Three chimneys with thin smoke in black sky; a low quench vat at front with light steam; a fabric awning at upper-right and a hanging cloth on front bench, hanging lanterns, a few tools and ivy. Meaningful empty courtyard pathways and repaired household tools, worn empty stool and mug imply absent craftspeople. Layout cozy, rich, spatially coherent and small-scale; machines are compact believable practical devices, not fantasy giant machinery. Each large moving element has a clean silhouette and visible center suitable for animation. Do not fill courtyard with junk. Original coal forge remains the warm heart. NOT a single house, NOT an industrial city. Matte soot, grainy wood, pixel clusters and softly broken edges, warm light pools on cool cobbles. No text, UI or phone screenshot.",
+  "cleanplate": "Create a precise animation background plate, same image dimensions, camera and all positions unchanged. Remove ONLY these movable elements: (1) spokes INSIDE each of THREE bronze flywheels (large central courtyard wheel, small front-left machine wheel, small upper balcony machine wheel). Keep ALL wheel rims, center hubs, drive belts, supports and buildings. Fill spoke interiors with continuing dark background. (2) rectangular vertical hammer heads and their short lower sliding rods of BOTH tabletop machines, front-left and upper balcony. Keep both frames, pulleys, and orange iron bars/anvil blocks unchanged. Remove tiny frozen sparks immediately around those heads. (3) striped fabric awning at UPPER RIGHT balcony, including its scalloped hanging bottom, revealing continuing dark timber wall and balcony behind. Keep its fixed attachment beam and all structural wood. Everything else exactly unchanged, no people, no new objects. Do not redraw the rest. This is temporary clean plate for compositing original moving parts back. Keep fine soft pixel painting and black background.",
+  "animation": "scripts/animate_ember_rank5_mechanical.swift",
+  "features": [
+    "3 rotating wheels and moving belt seams",
+    "2 differently timed piston hammers with impact sparks",
+    "rotating grindstone texture",
+    "large anchored awning wave",
+    "4 separately timed cloth ripples",
+    "3 chimney plumes",
+    "forge glow and rising cinders",
+    "quench vat ripples and steam",
+    "4 separately timed ivy patches"
+  ],
+  "duration": 16,
+  "fps": 25,
+  "width": 720,
+  "height": 788,
+  "audio": false
+}

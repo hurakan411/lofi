@@ -1,0 +1,101 @@
+{
+  "objects": {
+    "hall_bell": {
+      "minimumConnectedFraction": 1,
+      "areas": [
+        508,
+        499,
+        507,
+        505,
+        508,
+        508
+      ]
+    },
+    "hall_paper_left": {
+      "minimumConnectedFraction": 0.9875,
+      "areas": [
+        308,
+        320,
+        309,
+        317,
+        309,
+        308
+      ]
+    },
+    "hall_paper_right": {
+      "minimumConnectedFraction": 1,
+      "areas": [
+        303,
+        296,
+        293,
+        313,
+        303,
+        303
+      ]
+    },
+    "torii_bell": {
+      "minimumConnectedFraction": 1,
+      "areas": [
+        799,
+        798,
+        800,
+        793,
+        800,
+        799
+      ]
+    },
+    "torii_paper_left": {
+      "minimumConnectedFraction": 1,
+      "areas": [
+        445,
+        451,
+        447,
+        449,
+        445,
+        445
+      ]
+    },
+    "torii_paper_right": {
+      "minimumConnectedFraction": 1,
+      "areas": [
+        398,
+        409,
+        399,
+        410,
+        399,
+        398
+      ]
+    }
+  },
+  "loopChecks": {
+    "hanging": {
+      "meanBoundaryDelta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motionDetected": true
+    },
+    "maples": {
+      "meanBoundaryDelta": [
+        2.1794871794871795e-05,
+        3.846153846153846e-06,
+        2.564102564102564e-06,
+        3.076923076923077e-05
+      ],
+      "motionDetected": true
+    },
+    "airborne": {
+      "meanBoundaryDelta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motionDetected": true
+    }
+  },
+  "girlAndInteriorUnchanged": true,
+  "acceptedForegroundUnchanged": true
+}

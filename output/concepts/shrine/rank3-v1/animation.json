@@ -1,0 +1,177 @@
+{
+  "rank": 3,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "animation": "rank-3-foreground-v1.gif",
+  "inheritedAnimation": "rank-2-office-v10.gif",
+  "inheritedManifest": "rank-2-animation.json",
+  "renderer": "scripts/animate_shrine_rank3_v1.swift",
+  "layoutPreparation": "scripts/prepare_shrine_rank3_layout.swift",
+  "basePlate": "rank3-v1/base-framed.png",
+  "plantSprites": "rank3-v1/plants.png",
+  "artTool": "built-in imagegen",
+  "prompts": "rank3-v1/prompts.json",
+  "width": 600,
+  "height": 1300,
+  "framesPerSecond": 20,
+  "durationSeconds": 120,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; inherited water and office remain aligned",
+  "newlyRevealed": [
+    "mossy stone basin rim and front wall",
+    "bamboo water spout",
+    "nearby low mossy stonework",
+    "shallow foreground steps and stone paving",
+    "three foreground plant clumps"
+  ],
+  "stillHidden": [
+    "large near torii and sacred rope",
+    "shrine halls",
+    "distant steps and torii",
+    "giant tree trunks",
+    "upper architecture"
+  ],
+  "inheritedMotion": [
+    "upper-left to lower-right connected writing with knees and feet fixed",
+    "independent hair-tip wind",
+    "put brush down, cross arms and think for2.5 seconds, retrieve brush and resume",
+    "40-second nap cadence, face down on desk for10 seconds, corrected compact head",
+    "independent intact noren panels",
+    "gentle local lantern light",
+    "12-second water ripples, flowing stream and drifting maple leaf"
+  ],
+  "newMotion": [
+    "fern left:8-second cycle with independent spatial branch phases",
+    "fern center:10-second cycle with a different phase and bend",
+    "broadleaf undergrowth right:12-second cycle with independent branch phases",
+    "flowing highlights from newly revealed bamboo mouth"
+  ],
+  "plantPlacement": [
+    {
+      "name": "fern_left",
+      "root": [
+        13,
+        1311
+      ],
+      "height": 92,
+      "tipAmplitudePixels": 4,
+      "periodSeconds": 8,
+      "phaseRadians": 0.4
+    },
+    {
+      "name": "fern_center",
+      "root": [
+        228,
+        1311
+      ],
+      "height": 88,
+      "tipAmplitudePixels": 5,
+      "periodSeconds": 10,
+      "phaseRadians": 2.3
+    },
+    {
+      "name": "undergrowth_right",
+      "root": [
+        590,
+        1320
+      ],
+      "height": 110,
+      "tipAmplitudePixels": 4.5,
+      "periodSeconds": 12,
+      "phaseRadians": 4.7
+    }
+  ],
+  "verification": {
+    "file": "rank-3-foreground-v1.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 2400,
+    "durationMilliseconds": 120000,
+    "loop": "infinite",
+    "bytes": 27152791,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1293,
+      "hair_while_writing": 80,
+      "knees_feet_while_writing": 1,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "fixed_left_wall": 1,
+      "closed_door_edge": 1,
+      "desk_edge": 1,
+      "front_rail": 1,
+      "fern_left": 160,
+      "fern_center": 200,
+      "undergrowth_right": 240,
+      "fixed_paving": 1,
+      "fixed_basin_rim": 1,
+      "fixed_bamboo": 1
+    },
+    "writingDirection": "upper-left to lower-right",
+    "armConnectivityFixtures": [
+      {
+        "time": 0,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6705
+      },
+      {
+        "time": 0.6,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6643
+      },
+      {
+        "time": 1.2,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6577
+      },
+      {
+        "time": 1.8,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6537
+      },
+      {
+        "time": 2.35,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6533
+      },
+      {
+        "time": 2.7,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6635
+      }
+    ],
+    "keyPoseCount": 48,
+    "thoughtKeyPoses": 24,
+    "napKeyPoses": 24,
+    "motionAlignedInbetweens": true,
+    "armsCrossedHoldSeconds": 2.5,
+    "thoughtCueEverySeconds": 15,
+    "sleepOverridesThoughtCue": true,
+    "napIntervalSeconds": 40,
+    "napDurationSeconds": 10,
+    "napFramesPerVisit": 200,
+    "noStandingEntryExitOrStamping": true,
+    "fixedFurnitureAndBackdrop": true,
+    "rank2CorePixelsAndTimelinePreserved": true,
+    "newPlantsMoveIndependently": true,
+    "plantPeriodsSeconds": [
+      8,
+      10,
+      12
+    ],
+    "newReveal": [
+      "stone basin and rim",
+      "bamboo spout",
+      "mossy stone and shallow paving",
+      "foreground plants"
+    ],
+    "futureRankSceneryHidden": true
+  },
+  "verificationReport": "rank-3-verification-v1.json",
+  "preview": "rank-3-first-frame-v1.png",
+  "animationReport": "rank-3-animation-report-v1.txt",
+  "nextRank": "Reveal the large near torii and nearby shrine structures while inheriting all current water, clerk and plant motion. Keep upper shrine layers concealed."
+}

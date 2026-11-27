@@ -1,0 +1,31 @@
+{
+  "file": "rank-4-preview-small-v6.gif",
+  "bytes": 3075839,
+  "frames": 120,
+  "durationSeconds": 12,
+  "loop": "infinite",
+  "leafCount": 40,
+  "leavesFadeAfterSurfaceContact": true,
+  "regionSeamChecks": {
+    "maples_high": {
+      "seamMeanDifference": 2.747620779535673,
+      "maxAdjacentMeanDifference": 5.405922288901013
+    },
+    "maples_low": {
+      "seamMeanDifference": 2.7539780521262003,
+      "maxAdjacentMeanDifference": 5.521965020576132
+    },
+    "bells_and_paper": {
+      "seamMeanDifference": 0.8447990543735225,
+      "maxAdjacentMeanDifference": 1.2289935832489025
+    },
+    "landed_leaves": {
+      "seamMeanDifference": 0.6138588488544924,
+      "maxAdjacentMeanDifference": 1.5551483778381427
+    },
+    "full": {
+      "seamMeanDifference": 0.527000237416904,
+      "maxAdjacentMeanDifference": 0.8187808641975308
+    }
+  }
+}

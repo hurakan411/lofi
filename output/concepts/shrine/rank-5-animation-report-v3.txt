@@ -1,0 +1,5 @@
+Rank 5 v3: 600x1300, 2400 frames at 20 fps, 120.0s infinite GIF.
+GIF bytes: 162703105. Loop boundary mean delta 0.4562294871794872, max adjacent 0.7243679487179487.
+Removed the four upper-right walking people (three open-bridge visitors and upper-stair visitor). Retained three visitors behind the middle covered bridge railings and the existing central-stair visitor.
+Moved all three walking foxes onto the middle-right stone stair flight behind the large red torii. New registered path follows the tread centers, emerges from behind the foreground corridor roof and turns behind the right torii pillar/tree. Native contact shadows anchor the paws to the steps. Eight full-body walking cels with continuous root motion. Existing sprite artwork inherited from rank5-v2.
+All80 leaf paths, four green canopy boughs, four red boughs, upper paper wind, clerk writing/hair/gestures/naps, noren, lamps, water, foreground plants, resting foxes and dappled light inherited unchanged from rank5-v2. No new image generation.

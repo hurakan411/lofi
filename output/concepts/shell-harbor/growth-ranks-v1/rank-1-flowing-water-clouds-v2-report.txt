@@ -1,0 +1,10 @@
+Rank1 shell: 642x882, 300 frames, 25fps, 12.0s infinite loop.
+Output: rank-1-flowing-water-clouds-v2.gif; 4271633 bytes.
+Source: rank-1-puddle-v3.png.
+Clouds drift slowly in sky band; shell lip pours continuously into a small puddle.
+Water patch bounds: 180,564 to 521,700. Puddle shoreline remains fixed.
+Changed cloud pixels: 104550; changed water pixels: 19601.
+Changed pixels over loop: 124151; outside-motion changes: 0.
+Loop-seam mean difference: 0.09269727418033576; largest adjacent-frame mean difference: 0.09302761371901586.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

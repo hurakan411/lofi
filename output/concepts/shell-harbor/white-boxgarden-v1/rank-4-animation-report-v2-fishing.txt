@@ -1,0 +1,12 @@
+White platform rank 4: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-4-animation-v2-fishing.gif; 7506511 bytes.
+Source: rank-4.png.
+First little harbor: stone cottage terrace, short pier and one rowboat. Boat gently bobs/rocks, fabric awning stirs, subtle chimney smoke rises. Four cascades and water ripples; small fish and one larger 38px fish jump. Color-isolated leaves flutter with fixed trunks/branches, five grass/flower patches sway independently.
+Small seated human fisher uses generated transparent cutout, shares boat bob/rotation, holds subtly moving rod/line with a float on the water. Chimney smoke has a continuous mouth-connected plume plus 14 rising/dissolving puffs for improved visibility. Cutout alpha verified.
+All three birds start/finish on grass. Two fly around the island to water perches (pier edge/right shore), drink with tiny ripples, then fly home. Third circles the shell and returns to grass. No off-canvas entries/exits. Water-contact points and flight positions verified.
+Water patch bounds: 117,252 to 561,714. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind/bird regions: 70924.
+Changed pixels over loop: 70924; outside-motion changes: 0.
+Loop-seam mean difference: 0.13935000976733186; largest adjacent-frame mean difference: 0.21262453348138552.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

@@ -1,0 +1,11 @@
+White platform rank 3: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-3-animation-v3-life.gif; 7030768 bytes.
+Source: rank-3.png.
+Four continuous cascades, water ripples and four fish jumps. A larger 38px fish jumps at 7.2s; small fish at 3.5, 4.12 and 10.3s. Trees use color-isolated leaf flutter with fixed trunks/branches; five grass/flower patches move independently. White disk, rock and background remain static.
+All three birds start and finish on grass. Two fly local routes to the lagoon rim, lower their beaks into water with tiny ripples, then fly home. The third circles the shell and returns to grass. No off-canvas entries or exits. Water-contact points and all flight positions verified.
+Water patch bounds: 117,252 to 561,696. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind/bird regions: 68602.
+Changed pixels over loop: 68602; outside-motion changes: 0.
+Loop-seam mean difference: 0.1317441431529209; largest adjacent-frame mean difference: 0.21506201743780665.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

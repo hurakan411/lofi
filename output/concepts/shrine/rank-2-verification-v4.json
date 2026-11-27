@@ -1,0 +1,27 @@
+{
+  "file": "rank-2-office-v4.gif",
+  "dimensions": [
+    600,
+    1300
+  ],
+  "frames": 1200,
+  "durationMilliseconds": 60000,
+  "loop": "infinite",
+  "bytes": 8855909,
+  "regionUniqueFrames": {
+    "water": 240,
+    "office": 1114,
+    "noren": 416,
+    "hidden_upper_world": 1,
+    "fixed_wall": 1,
+    "front_rail": 1
+  },
+  "waterRepeatsEvery12Seconds": true,
+  "thinkingIntervalSeconds": 15,
+  "departureIntervalSeconds": 30,
+  "insideRoomSeconds": 5,
+  "insideRoomFramesPerVisit": 100,
+  "fullyEmptyOfficeVerified": true,
+  "fixedRailWallAndUnrevealedWorld": true,
+  "toolOrderVerified": true
+}

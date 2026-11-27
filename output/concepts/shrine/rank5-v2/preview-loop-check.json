@@ -1,0 +1,26 @@
+{
+  "rank-5-preview-small-v2.gif": {
+    "dimensions": [
+      360,
+      780
+    ],
+    "frames": 120,
+    "durationMilliseconds": 12000,
+    "loop": "infinite",
+    "bytes": 4143154,
+    "seamMeanDelta": 0.809264007597341,
+    "maximumAdjacentMeanDelta": 1.0686597815764483
+  },
+  "rank-5-upper-detail-v2.gif": {
+    "dimensions": [
+      600,
+      510
+    ],
+    "frames": 120,
+    "durationMilliseconds": 12000,
+    "loop": "infinite",
+    "bytes": 3990984,
+    "seamMeanDelta": 0.9581307189542484,
+    "maximumAdjacentMeanDelta": 1.1924226579520698
+  }
+}

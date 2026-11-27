@@ -1,0 +1,62 @@
+{
+  "file": "rank-2-office-v7.gif",
+  "dimensions": [
+    600,
+    1300
+  ],
+  "frames": 2400,
+  "durationMilliseconds": 120000,
+  "loop": "infinite",
+  "bytes": 18710239,
+  "regionUniqueFrames": {
+    "water": 240,
+    "office": 1074,
+    "hair_while_writing": 80,
+    "noren": 240,
+    "hidden_upper_world": 1,
+    "fixed_left_wall": 1,
+    "closed_door_edge": 1,
+    "desk_edge": 1,
+    "front_rail": 1
+  },
+  "writingDirection": "upper-left to lower-right",
+  "armConnectivityFixtures": [
+    {
+      "time": 0,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6827
+    },
+    {
+      "time": 0.6,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6704
+    },
+    {
+      "time": 1.2,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6560
+    },
+    {
+      "time": 1.8,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6435
+    },
+    {
+      "time": 2.35,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6352
+    },
+    {
+      "time": 2.7,
+      "wristConnectedToShoulder": true,
+      "connectedPixels": 6580
+    }
+  ],
+  "thoughtCueEverySeconds": 15,
+  "sleepOverridesThoughtCue": true,
+  "napIntervalSeconds": 40,
+  "napDurationSeconds": 10,
+  "napFramesPerVisit": 200,
+  "noStandingEntryExitOrStamping": true,
+  "fixedFurnitureAndBackdrop": true
+}

@@ -1,0 +1,22 @@
+{
+  "file": "rank-4-preview-small-v2.gif",
+  "bytes": 1374731,
+  "frames": 120,
+  "durationSeconds": 12,
+  "loop": "infinite",
+  "sunlightFinalPlacementMatchesStartExactly": true,
+  "regionSeamChecks": {
+    "lanterns": {
+      "seamMeanDifference": 0.004781341107871721,
+      "maxAdjacentMeanDifference": 0.006783284742468416
+    },
+    "foreground": {
+      "seamMeanDifference": 0.5459953703703704,
+      "maxAdjacentMeanDifference": 1.214320987654321
+    },
+    "full": {
+      "seamMeanDifference": 0.10836775878442545,
+      "maxAdjacentMeanDifference": 0.3053715574548908
+    }
+  }
+}

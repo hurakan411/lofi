@@ -1,0 +1,58 @@
+{
+  "rank": 1,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "basePlate": "rank-1-base.png",
+  "basePrompt": "rank-1-base-prompt.txt",
+  "baseTool": "built-in image_gen",
+  "animation": "rank-1-water-mist-v2.gif",
+  "renderer": "scripts/recolor_shrine_early_mist.swift",
+  "width": 600,
+  "height": 1300,
+  "durationSeconds": 12,
+  "framesPerSecond": 20,
+  "frameCount": 240,
+  "loop": "infinite",
+  "camera": "fixed; same framing as the approved completed world",
+  "revealed": [
+    "water surface",
+    "one red maple leaf",
+    "short falling water stream"
+  ],
+  "hidden": [
+    "basin rim and wall",
+    "bamboo spout",
+    "shrine",
+    "torii",
+    "woman",
+    "office",
+    "plants",
+    "path"
+  ],
+  "motion": [
+    "downward water highlights",
+    "outward elliptical ripples",
+    "slow leaf drift and angular sway"
+  ],
+  "nextRank": "Add the lower-right clerk and office while retaining this water animation; do not reveal upper shrines.",
+  "previousAnimation": "rank-1-water.gif",
+  "sourceRenderer": "scripts/animate_shrine_rank1.swift",
+  "preview": "rank-1-first-frame-mist.png",
+  "verification": {
+    "animation": "rank-1-water-mist-v2.gif",
+    "bytes": 1270566,
+    "durationSeconds": 12.000000000000036,
+    "frames": 240,
+    "height": 1300,
+    "loop": "infinite",
+    "maxSampledCoreMeanChannelError": 0.029668411867364748,
+    "mistReference": "rank4-v6/mist-background.png",
+    "motionTimingUnchanged": true,
+    "newSceneryRevealed": false,
+    "rank": 1,
+    "source": "rank-1-water.gif",
+    "width": 600
+  },
+  "verificationReport": "rank-1-mist-report.json",
+  "hiddenBackdrop": "Pale green-white daylight mist matching rank four; no new scenery, original motion and timing retained."
+}

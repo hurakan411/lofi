@@ -1,0 +1,14 @@
+{
+  "presentation": "white-background-white-circular-platform",
+  "width": 642,
+  "height": 882,
+  "fps": 25,
+  "audio": false,
+  "ranks": [
+    {"rank": 1, "still": "rank-1.png", "gif": "rank-1-animation-v2.gif", "seconds": 12},
+    {"rank": 2, "still": "rank-2.png", "gif": "rank-2-animation-v2.gif", "seconds": 16},
+    {"rank": 3, "still": "rank-3.png", "gif": "rank-3-animation-v3-life.gif", "seconds": 16},
+    {"rank": 4, "still": "rank-4.png", "gif": "rank-4-animation-v3-flow.gif", "seconds": 16},
+    {"rank": 5, "still": "rank-5-sea-v2.png", "gif": "rank-5-animation-v4-waves-wind.gif", "seconds": 24}
+  ]
+}

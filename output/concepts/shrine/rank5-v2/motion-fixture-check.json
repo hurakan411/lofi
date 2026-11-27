@@ -1,0 +1,46 @@
+{
+  "leafCount": 80,
+  "newUpperLeaves": 40,
+  "original40VisibleLeafPathsPreserved": true,
+  "fadeOnlyAfterLanding": true,
+  "restingLeafPositionFixedDuringFade": true,
+  "inheritedClerkMotionRestingFoxesAndLightPreserved": true,
+  "foregroundBelow600UnchangedBeforeParticles": true,
+  "loopLayerMeanDelta": {
+    "hanging": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maples": [
+      3.461538461538462e-05,
+      6.41025641025641e-06,
+      1.6666666666666667e-05,
+      4.871794871794872e-05
+    ],
+    "canopy": [
+      1.5384615384615384e-05,
+      2.6923076923076923e-05,
+      3.846153846153846e-06,
+      2.9487179487179487e-05
+    ],
+    "airborne": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "walkers": [
+      2.1794871794871795e-05,
+      1.5384615384615384e-05,
+      1.4102564102564102e-05,
+      3.205128205128205e-05
+    ]
+  },
+  "walkers": 11,
+  "bridgeVisitors": 6,
+  "stairVisitors": 2,
+  "stairFoxes": 3,
+  "walkingFiguresMaxHeightPixels": 26
+}

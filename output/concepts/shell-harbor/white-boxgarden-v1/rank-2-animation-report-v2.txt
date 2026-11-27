@@ -1,0 +1,10 @@
+White platform rank 2: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-2-animation-v2.gif; 5528456 bytes.
+Source: rank-2.png.
+Stronger water refraction, flowing highlights and expanding ripples. Rank2 adds three fish jumps at 3.5, 4.12 and 10.3 seconds, with takeoff/landing splashes. White disk and background remain static.
+Water patch bounds: 117,417 to 561,696. Outer pond shoreline remains fixed inside this rank's loop.
+Changed water pixels: 53643.
+Changed pixels over loop: 53643; outside-motion changes: 0.
+Loop-seam mean difference: 0.23890850722311396; largest adjacent-frame mean difference: 0.28461476725521667.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

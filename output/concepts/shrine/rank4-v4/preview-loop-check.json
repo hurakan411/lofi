@@ -1,0 +1,23 @@
+{
+  "file": "rank-4-preview-small-v4.gif",
+  "bytes": 1354054,
+  "frames": 120,
+  "durationSeconds": 12,
+  "loop": "infinite",
+  "sunlightFinalPlacementMatchesStartExactly": true,
+  "officeLeftBlackExteriorRemoved": true,
+  "regionSeamChecks": {
+    "lanterns": {
+      "seamMeanDifference": 0.004489795918367347,
+      "maxAdjacentMeanDifference": 0.008992549400712665
+    },
+    "foreground": {
+      "seamMeanDifference": 0.5498996913580246,
+      "maxAdjacentMeanDifference": 1.203348765432099
+    },
+    "full": {
+      "seamMeanDifference": 0.1089292497625831,
+      "maxAdjacentMeanDifference": 0.3030401234567901
+    }
+  }
+}

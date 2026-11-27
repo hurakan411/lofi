@@ -1,0 +1,32 @@
+build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+*.log
+
+# Local signing and credentials
+*.mobileprovision
+*.p12
+*.pfx
+*.pem
+.env
+.env.*
+!.env.example
+
+# Generated artwork iterations stay local; retain prompts and manifests.
+output/**/*
+!output/**/
+!output/**/*.json
+!output/**/*.md
+!output/**/*.txt
+!output/audio/*.wav
+
+# Source plates needed to reproduce the current workshop animations.
+!output/concepts/ember-workshop/stages-v1/rank-1.png
+!output/concepts/ember-workshop/stages-v1/rank-2.png
+!output/concepts/ember-workshop/stages-v1/rank-3-mechanical-v2-compact.png
+!output/concepts/ember-workshop/stages-v1/rank-3-mechanical-v2-cleanplate.png
+!output/concepts/ember-workshop/stages-v1/rank-4-mechanical-v1.png
+!output/concepts/ember-workshop/stages-v1/rank-4-mechanical-cleanplate-v1.png
+!output/concepts/ember-workshop/stages-v1/rank-5-clocktower-v4-matched.png
+!output/concepts/ember-workshop/stages-v1/rank-5-clocktower-cleanplate-v4-matched.png

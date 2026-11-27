@@ -1,0 +1,180 @@
+{
+  "rank": 2,
+  "worldStory": "もうひとつだけ",
+  "chapter": "小さな申請",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "inheritedAnimation": "rank-1-water.gif",
+  "basePlate": "rank-2-base.png",
+  "basePrompt": "rank-2-base-prompt.txt",
+  "posePrompts": "v7/prompts.json",
+  "baseAndPoseTool": "built-in image_gen",
+  "posePlates": [
+    "v4/clerk-poses.png",
+    "v7/pause-sheet.png",
+    "v7/nap-sheet.png"
+  ],
+  "cleanPlate": "v4/office-open.png",
+  "cleanPlatePrompt": "v4/secondary-prompts.json",
+  "norenCleanPlate": "v4/office-open.png",
+  "norenCleanPlatePrompt": "v4/secondary-prompts.json",
+  "animation": "rank-2-office-v7.gif",
+  "previousAnimation": "rank-2-office-v6.gif",
+  "renderer": "scripts/animate_shrine_rank2_v7.swift",
+  "width": 600,
+  "height": 1300,
+  "durationSeconds": 120,
+  "framesPerSecond": 20,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; same framing as ranks one and five",
+  "newlyRevealed": [
+    "fox-masked clerk",
+    "office desk",
+    "ledger and application forms",
+    "stamp and ink pad",
+    "work lantern",
+    "small supporting wall and veranda"
+  ],
+  "stillHidden": [
+    "basin rim and wall",
+    "bamboo spout",
+    "torii",
+    "shrines",
+    "plants",
+    "path",
+    "upper architecture"
+  ],
+  "motion": [
+    "brush writes from upper-left to lower-right, then lifts and returns",
+    "connected full-character deformation preserves sleeve-to-wrist continuity; no detached forearm layers",
+    "independent hair-tip wind, stable tied roots",
+    "15-second thought cue: put brush down, fold arms in front of chest, think, retrieve brush and resume writing; sleep takes priority",
+    "40-second nap cycle: put brush down, rest head face down on folded sleeves on desk for ten seconds, wake and retrieve brush",
+    "intact noren panels sway independently",
+    "gentle local lantern light",
+    "inherited twelve-second water and drifting leaf animation"
+  ],
+  "correction": "Removed cut-out forearm rig. The complete connected transparent character uses a continuous deformation field during writing, with rigid finger/brush displacement smoothly blended through sleeve. Full connected cels depict thought and sleeping. Foreground hair moves without warping background. No stamping or standing/entry/exit.",
+  "verification": {
+    "file": "rank-2-office-v7.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 2400,
+    "durationMilliseconds": 120000,
+    "loop": "infinite",
+    "bytes": 18710239,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1074,
+      "hair_while_writing": 80,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "fixed_left_wall": 1,
+      "closed_door_edge": 1,
+      "desk_edge": 1,
+      "front_rail": 1
+    },
+    "writingDirection": "upper-left to lower-right",
+    "armConnectivityFixtures": [
+      {
+        "time": 0,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6827
+      },
+      {
+        "time": 0.6,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6704
+      },
+      {
+        "time": 1.2,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6560
+      },
+      {
+        "time": 1.8,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6435
+      },
+      {
+        "time": 2.35,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6352
+      },
+      {
+        "time": 2.7,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6580
+      }
+    ],
+    "thoughtCueEverySeconds": 15,
+    "sleepOverridesThoughtCue": true,
+    "napIntervalSeconds": 40,
+    "napDurationSeconds": 10,
+    "napFramesPerVisit": 200,
+    "noStandingEntryExitOrStamping": true,
+    "fixedFurnitureAndBackdrop": true
+  },
+  "verificationReport": "rank-2-verification-v7.json",
+  "nextRank": "Reveal the basin surround and nearby plants while inheriting the water and office animations. Keep the large torii and upper shrine layers hidden.",
+  "scenePlate": "v4/office-clean.png",
+  "scenePlatePlacement": {
+    "sourceCrop": [
+      555,
+      1210,
+      297,
+      450
+    ],
+    "originalCanvas": [
+      852,
+      1846
+    ]
+  },
+  "heldToolCleanPlate": "v4/office-no-tools.png",
+  "preview": "rank-2-first-frame-v7.png",
+  "motionCheck": "rank-2-motion-check-v7.png",
+  "animationReport": "rank-2-animation-report-v7.txt",
+  "sourceArtNote": "New thought/nap sprite cels generated with built-in imagegen. Writing retains intact v4 character with connected deformation, background remains fixed.",
+  "writing": {
+    "direction": "upper-left to lower-right",
+    "cycleSeconds": 3,
+    "writingSeconds": 2.4,
+    "liftAndReturnSeconds": 0.6,
+    "horizontalTravelPixels": 6,
+    "verticalTravelPixels": 7,
+    "method": "continuous connected full-figure deformation; no arm alpha removal"
+  },
+  "poseArtworkTool": "built-in image_gen",
+  "thinking": {
+    "cueIntervalSeconds": 15,
+    "firstCueSeconds": 4,
+    "durationSeconds": 4.8,
+    "arms": "crossed in front of chest",
+    "putsBrushDownAndPicksItUp": true,
+    "sleepTakesPriority": true
+  },
+  "nap": {
+    "intervalSeconds": 40,
+    "sleepStartSeconds": [
+      27,
+      67,
+      107
+    ],
+    "sleepDurationSeconds": 10,
+    "sleepEndSeconds": [
+      37,
+      77,
+      117
+    ],
+    "workResumesSeconds": [
+      39.4,
+      79.4,
+      119.4
+    ],
+    "pose": "head face down on folded forearms on desk"
+  },
+  "timeline": "rank-2-timeline-v7.json",
+  "writingMotionCheck": "rank-2-writing-check-v7.png"
+}

@@ -1,0 +1,15 @@
+{
+  "animation" : "rank-1-water-mist-v2.gif",
+  "bytes" : 1270566,
+  "durationSeconds" : 12.000000000000036,
+  "frames" : 240,
+  "height" : 1300,
+  "loop" : "infinite",
+  "maxSampledCoreMeanChannelError" : 0.029668411867364748,
+  "mistReference" : "rank4-v6\/mist-background.png",
+  "motionTimingUnchanged" : true,
+  "newSceneryRevealed" : false,
+  "rank" : 1,
+  "source" : "rank-1-water.gif",
+  "width" : 600
+}

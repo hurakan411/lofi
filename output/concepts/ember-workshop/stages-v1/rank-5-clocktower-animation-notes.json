@@ -1,0 +1,25 @@
+{
+  "source": "rank-5-clocktower-v1.png",
+  "cleanplate": "rank-5-clocktower-cleanplate-v1.png",
+  "cleanplateTool": "built-in image_gen",
+  "cleanplatePrompt": "Make a precise animation clean background plate from this exact clocktower image, same dimensions and all remaining details in exactly original places. Remove ONLY: (1) the ENTIRE long brass pendulum, its narrow rod from beneath the clock face and its large round brass bob and bottom finial. Reconstruct the continuing dark interior/mechanism behind it. (2) the THREE large exposed brass cogwheels in the middle storeys: main large wheel left, upper-right medium wheel, lower-right smaller wheel; remove just rotating cogs/spokes/rims, leaving their fixed support axles, belts and all timber. (3) the small bronze bell under the very top roof, leaving its fixed suspension. (4) the sliding hammer head and short lower rod of the tiny tabletop forge at ground level, keeping its frame and hot iron on anvil. (5) Both clock hands and central cap, leaving the exact same softly textured ivory dial and all hour marks untouched. DO NOT remove the circular clock bezel, doors, lanterns, buildings, gears' structural supporting timber, belts, workshop tools or grinding wheel. No new elements, people or text. Keep pure black background and same pixel texture. This is a temporary plate to composite the original rigid moving components back over.",
+  "renderer": "scripts/animate_ember_clocktower.swift",
+  "output": "rank-5-clocktower-animation-v1.gif",
+  "width": 640,
+  "height": 960,
+  "fps": 25,
+  "frames": 400,
+  "durationSeconds": 16,
+  "loop": true,
+  "audio": false,
+  "motion": [
+    "large rigid pendulum swing",
+    "three opposite-turning cogs",
+    "accelerated minute hand",
+    "periodic bell swing",
+    "small forge machine and impact cinders",
+    "rotating grindstone texture",
+    "hearth glow and chimney smoke",
+    "cloth and ivy movement"
+  ]
+}

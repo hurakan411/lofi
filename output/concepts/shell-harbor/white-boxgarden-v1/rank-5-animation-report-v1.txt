@@ -1,0 +1,13 @@
+White platform rank 5: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-5-animation-v1.gif; 8073973 bytes.
+Source: rank-5.png.
+Completed miniature shell harbor: spiral village, stone footbridge, lighthouse and waterfront workshop. Workshop wheel turns twice per loop in its own oblique plane; wall/frame/axle fixed. Lighthouse lantern gently changes brightness inside its glass only.
+Boat, fisher, rod, line and float share boat motion at their new position. Three chimneys emit connected, independently phased rising smoke. Color-isolated leaves/foliage flutter with static trunks, branches, roofs and walls. Four fish jumps include one larger 38px fish.
+Six traced flow ribbons cover the original upper cascade chain/outlet and the new bridge tributary/wheel outlet. Source water texture retained; filaments move downstream with integer loop frequencies, and source rock colors are rejected. Water/pier/fish positions adapted to new shore.
+Three birds start/finish on grass; two fly local routes to drink and return, one circles the shell. No off-canvas entry/exit. Drinking contacts, finite flight positions, real cutout alpha and monotonic downstream flow geometry verified.
+Water patch bounds: 117,252 to 561,732. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind/bird regions: 70382.
+Changed pixels over loop: 70382; outside-motion changes: 0.
+Loop-seam mean difference: 0.13368635696685588; largest adjacent-frame mean difference: 0.20426328653486853.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

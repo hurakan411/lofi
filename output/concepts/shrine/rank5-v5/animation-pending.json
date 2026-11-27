@@ -1,0 +1,1120 @@
+{
+  "rank": 5,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "animation": "rank-5-shrine-v5.gif",
+  "inheritedAnimation": "rank-5-shrine-v4.gif",
+  "inheritedManifest": "rank-5-animation-v4.json",
+  "renderer": "scripts/animate_shrine_rank5_v5.swift",
+  "width": 600,
+  "height": 1300,
+  "framesPerSecond": 20,
+  "durationSeconds": 120,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; all inherited objects stay registered",
+  "art": "approved full-world painting, inherited rank3 sprites, imagegen clean entrance plates and transparent maple-bough/leaf artwork; native Swift compositing and continuous deformation; built-in imagegen whole-body walking sprite atlases; native Swift registered-cel animation and fixed architectural occlusion",
+  "newlyRevealed": [
+    "entire bridge connecting the shrines",
+    "all vertically stacked upper shrine halls",
+    "upper torii, stairways and galleries",
+    "massive sacred tree trunks and sunlit overhead canopy"
+  ],
+  "stillHidden": [],
+  "inheritedMotionManifest": "rank-3-animation.json",
+  "inheritedMotion": [
+    "all80 physical leaf paths, canopy/paper/bell wind and daytime full world",
+    "clerk writing, thought/nap, hair, noren, lamps, water, plants and dappled light",
+    "two resting foreground foxes and their tail motion",
+    "three covered-bridge visitors and central-stair visitor; upper-right walkers remain removed"
+  ],
+  "newMotion": [
+    "all walking stair foxes removed",
+    "one small red-faced long-nosed tengu seated on middle-right torii top beam",
+    "only lower legs swing alternately from fixed knees; head, torso, hands, seat and upper legs stay still"
+  ],
+  "foregroundTransition": "old dark reveal boundary replaced by continuous steps; rank3 bottom y1100..1299 preserved exactly before GIF palette encoding",
+  "preview": "rank-5-first-frame-v5.png",
+  "lightweightPreview": {
+    "file": "rank-5-preview-small-v5.gif",
+    "width": 360,
+    "height": 780,
+    "framesPerSecond": 10,
+    "durationSeconds": 12,
+    "fullCanvas": true,
+    "bytes": 4164702,
+    "loopCheck": "rank5-v5/preview-loop-check.json"
+  },
+  "verificationReport": "rank-5-verification-v5.json",
+  "animationReport": "rank-5-animation-report-v5.txt",
+  "nextRank": null,
+  "previousAnimation": "rank-5-shrine-v4.gif",
+  "revealBoundary": {
+    "completeWorldVisible": true,
+    "unrevealedFogRemoved": true,
+    "foregroundMaterialJoinPreserved": true
+  },
+  "officeCompositingFix": {
+    "leftBlackExteriorRemoved": true,
+    "background": "continuous rank4 shrine scene visible left of physical front post",
+    "topEdge": "blend over140 native pixels (28.7 canvas pixels) into underlying sloping eaves",
+    "exteriorRailingGaps": "dark backing removed outside the structure only",
+    "girlAndRoomCoreUnchanged": true,
+    "motionTimelineUnchanged": true
+  },
+  "artTool": "built-in imagegen",
+  "prompts": "rank5-v5/prompts.json",
+  "windArtwork": {
+    "cleanEntrances": "rank4-v5/entrances-clean-atlas.png",
+    "mapleSprites": "rank4-v5/maple-sprites.png",
+    "sourceBellAndPaper": "rank-5-redrawn-v16.png",
+    "promptSet": "rank4-v5/prompts.json",
+    "mode": "built-in imagegen",
+    "backgroundsDoNotWarp": true,
+    "fixedSourceGeometry": "clean plates touch only original object silhouettes plus feathered edges"
+  },
+  "windObjects": [
+    {
+      "name": "hall bell",
+      "anchor": [
+        201,
+        552
+      ],
+      "periodSeconds": 6,
+      "angleAmplitudeRadians": 0.11
+    },
+    {
+      "name": "torii bell",
+      "anchor": [
+        237,
+        828
+      ],
+      "periodSeconds": 4,
+      "angleAmplitudeRadians": 0.14
+    },
+    {
+      "name": "hall paper left",
+      "anchor": [
+        170,
+        538
+      ],
+      "periodSeconds": 4,
+      "tipAmplitudePixels": 4.8
+    },
+    {
+      "name": "hall paper right",
+      "anchor": [
+        232,
+        549
+      ],
+      "periodSeconds": 6,
+      "tipAmplitudePixels": 5.8
+    },
+    {
+      "name": "torii paper left",
+      "anchor": [
+        188,
+        815
+      ],
+      "periodSeconds": 6,
+      "tipAmplitudePixels": 7
+    },
+    {
+      "name": "torii paper right",
+      "anchor": [
+        281,
+        822
+      ],
+      "periodSeconds": 4,
+      "tipAmplitudePixels": 6.2
+    }
+  ],
+  "mapleBoughs": [
+    {
+      "sprite": 0,
+      "root": [
+        -27,
+        590
+      ],
+      "height": 194,
+      "tipAmplitudePixels": 21,
+      "periodSeconds": 6,
+      "phaseRadians": 0.7
+    },
+    {
+      "sprite": 1,
+      "root": [
+        -58,
+        940
+      ],
+      "height": 195,
+      "tipAmplitudePixels": 28,
+      "periodSeconds": 12,
+      "phaseRadians": 2.9
+    },
+    {
+      "sprite": 0,
+      "root": [
+        -38,
+        1085
+      ],
+      "height": 270,
+      "tipAmplitudePixels": 30,
+      "periodSeconds": 12,
+      "phaseRadians": 5
+    },
+    {
+      "sprite": 1,
+      "root": [
+        -33,
+        183
+      ],
+      "height": 170,
+      "tipAmplitudePixels": 20,
+      "periodSeconds": 12,
+      "phaseRadians": 2.2
+    }
+  ],
+  "airborneMaples": {
+    "count": 80,
+    "artVariations": 3,
+    "periodSeconds": 12,
+    "staggeredPhases": true,
+    "fadeInSeconds": 0.18,
+    "fadeOutSeconds": 1.3,
+    "girlUnobscured": true,
+    "previousCount": 40,
+    "fadeInLocation": "inside source maple canopy",
+    "fadeOutOnlyAfterLanding": true,
+    "flightDurationRangeSeconds": [
+      7.2,
+      8.3
+    ],
+    "landingSettleSeconds": 0.42,
+    "landingRestSeconds": 1.5,
+    "contactShadows": true,
+    "restingPositionFixedDuringFade": true,
+    "surfaces": [
+      "office_roof",
+      "stone_steps",
+      "stone_paving",
+      "upper_shrine_roof",
+      "upper_stone_steps"
+    ],
+    "landingTargets": [
+      {
+        "leaf": 0,
+        "target": [
+          361,
+          840
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 1,
+        "target": [
+          228,
+          1013
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 2,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 3,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 4,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 5,
+        "target": [
+          390,
+          831
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 6,
+        "target": [
+          273,
+          1029
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 7,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 8,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 9,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 10,
+        "target": [
+          419,
+          822
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 11,
+        "target": [
+          326,
+          1046
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 12,
+        "target": [
+          552,
+          1258
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 13,
+        "target": [
+          355,
+          1154
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 14,
+        "target": [
+          530,
+          1217
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 15,
+        "target": [
+          447,
+          814
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 16,
+        "target": [
+          299,
+          1073
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 17,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 18,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 19,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 20,
+        "target": [
+          361,
+          840
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 21,
+        "target": [
+          258,
+          1088
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 22,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 23,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 24,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 25,
+        "target": [
+          390,
+          831
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 26,
+        "target": [
+          335,
+          1096
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 27,
+        "target": [
+          552,
+          1258
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 28,
+        "target": [
+          355,
+          1154
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 29,
+        "target": [
+          530,
+          1217
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 30,
+        "target": [
+          419,
+          822
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 31,
+        "target": [
+          274,
+          1112
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 32,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 33,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 34,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 35,
+        "target": [
+          447,
+          814
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 36,
+        "target": [
+          353,
+          1120
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 37,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 38,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 39,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 40,
+        "target": [
+          135,
+          122
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 41,
+        "target": [
+          204,
+          235
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 42,
+        "target": [
+          327,
+          274
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 43,
+        "target": [
+          472,
+          90
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 44,
+        "target": [
+          510,
+          246
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 45,
+        "target": [
+          165,
+          137
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 46,
+        "target": [
+          417,
+          281
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 47,
+        "target": [
+          402,
+          209
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 48,
+        "target": [
+          495,
+          101
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 49,
+        "target": [
+          345,
+          298
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 50,
+        "target": [
+          351,
+          120
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 51,
+        "target": [
+          455,
+          254
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 52,
+        "target": [
+          414,
+          232
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 53,
+        "target": [
+          155,
+          252
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 54,
+        "target": [
+          356,
+          312
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 55,
+        "target": [
+          374,
+          132
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 56,
+        "target": [
+          480,
+          231
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 57,
+        "target": [
+          135,
+          122
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 58,
+        "target": [
+          204,
+          235
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 59,
+        "target": [
+          327,
+          274
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 60,
+        "target": [
+          472,
+          90
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 61,
+        "target": [
+          510,
+          246
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 62,
+        "target": [
+          165,
+          137
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 63,
+        "target": [
+          417,
+          281
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 64,
+        "target": [
+          402,
+          209
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 65,
+        "target": [
+          495,
+          101
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 66,
+        "target": [
+          345,
+          298
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 67,
+        "target": [
+          351,
+          120
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 68,
+        "target": [
+          455,
+          254
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 69,
+        "target": [
+          414,
+          232
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 70,
+        "target": [
+          155,
+          252
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 71,
+        "target": [
+          356,
+          312
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 72,
+        "target": [
+          374,
+          132
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 73,
+        "target": [
+          480,
+          231
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 74,
+        "target": [
+          135,
+          122
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 75,
+        "target": [
+          204,
+          235
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 76,
+        "target": [
+          327,
+          274
+        ],
+        "surface": "upper_stone_steps",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 77,
+        "target": [
+          472,
+          90
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 78,
+        "target": [
+          510,
+          246
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 79,
+        "target": [
+          165,
+          137
+        ],
+        "surface": "upper_shrine_roof",
+        "flightSeconds": 7.7
+      }
+    ]
+  },
+  "windFixtureReport": "rank4-v5/wind-fixture-check.json",
+  "fallingLeafLifecycle": "rank5-v5/leaf-lifecycle.json",
+  "fallingLeafCheck": "rank5-v5/motion-fixture-check.json",
+  "newWindObjects": [
+    {
+      "name": "left sacred-tree paper left",
+      "anchor": [
+        31,
+        319
+      ],
+      "periodSeconds": 6,
+      "amplitudePixels": 6.2
+    },
+    {
+      "name": "left sacred-tree paper right",
+      "anchor": [
+        56,
+        303
+      ],
+      "periodSeconds": 12,
+      "amplitudePixels": 7.0
+    },
+    {
+      "name": "right sacred-tree paper left",
+      "anchor": [
+        488,
+        405
+      ],
+      "periodSeconds": 6,
+      "amplitudePixels": 6.5
+    },
+    {
+      "name": "right sacred-tree paper middle",
+      "anchor": [
+        516,
+        409
+      ],
+      "periodSeconds": 12,
+      "amplitudePixels": 7.4
+    },
+    {
+      "name": "right sacred-tree paper right",
+      "anchor": [
+        554,
+        402
+      ],
+      "periodSeconds": 4,
+      "amplitudePixels": 6.3
+    },
+    {
+      "name": "distant torii paper left",
+      "anchor": [
+        471,
+        541
+      ],
+      "periodSeconds": 6,
+      "amplitudePixels": 4.2
+    },
+    {
+      "name": "distant torii paper right",
+      "anchor": [
+        495,
+        541
+      ],
+      "periodSeconds": 4,
+      "amplitudePixels": 4.8
+    },
+    {
+      "name": "distant torii bell",
+      "anchor": [
+        478,
+        538
+      ],
+      "periodSeconds": 6,
+      "amplitudeRadians": 0.18
+    }
+  ],
+  "newCanopyBoughs": [
+    {
+      "sprite": 0,
+      "root": [
+        -42,
+        165
+      ],
+      "height": 132,
+      "amplitudePixels": 12,
+      "periodSeconds": 12,
+      "mirrored": false
+    },
+    {
+      "sprite": 1,
+      "root": [
+        635,
+        152
+      ],
+      "height": 84,
+      "amplitudePixels": 13,
+      "periodSeconds": 6,
+      "mirrored": true
+    },
+    {
+      "sprite": 0,
+      "root": [
+        -55,
+        337
+      ],
+      "height": 166,
+      "amplitudePixels": 14,
+      "periodSeconds": 12,
+      "phaseRadians": 3.2,
+      "mirrored": false
+    },
+    {
+      "sprite": 1,
+      "root": [
+        639,
+        305
+      ],
+      "height": 130,
+      "amplitudePixels": 14,
+      "periodSeconds": 12,
+      "phaseRadians": 0.4,
+      "mirrored": true
+    }
+  ],
+  "newArtwork": {
+    "cleanUpperBackground": "rank5-v1/upper-clean-atlas.png",
+    "greenBoughSprites": "rank5-v1/canopy-sprites.png",
+    "mode": "built-in imagegen",
+    "prompts": "rank5-v1/prompts.json",
+    "walkingPeople": "rank5-v2/people-walk-atlas.png",
+    "walkingPrompts": "rank5-v2/prompts.json",
+    "tengu": "rank5-v5/tengu-seated.png",
+    "tenguPrompts": "rank5-v5/prompts.json"
+  },
+  "motionFixtureReport": "rank5-v5/motion-fixture-check.json",
+  "walkingFigures": {
+    "bridgeVisitors": 3,
+    "stairVisitors": 1,
+    "stairFoxes": 0,
+    "walkCelsPerCharacter": 8,
+    "environmentLoopSeconds": 12,
+    "peopleHeightRangePixels": [
+      19,
+      26
+    ],
+    "occlusion": [
+      "front bridge rails",
+      "bridge columns",
+      "shrine roofs",
+      "torii pillars"
+    ],
+    "artwork": [
+      "rank5-v2/people-walk-atlas.png"
+    ],
+    "lifecycle": "rank5-v5/walker-lifecycle.json",
+    "removedUpperRightPeople": [
+      "upper_indigo",
+      "upper_russet",
+      "upper_second_indigo",
+      "upper_stairs_moss"
+    ]
+  },
+  "tengu": {
+    "count": 1,
+    "seat": [
+      491,
+      502
+    ],
+    "figureHeightPixels": 44,
+    "source": "rank5-v5/tengu-seated.png",
+    "promptSet": "rank5-v5/prompts.json",
+    "rendering": "native Swift rigid calf transforms, separate source domains, overlapped pinned knee joins",
+    "periodSeconds": 3,
+    "leftRightPhaseDifferenceRadians": 3.141592653589793,
+    "lowerLegAngleAmplitudeRadians": 0.18,
+    "headTorsoHandsHipsAndUpperLegsFixed": true,
+    "seatContactShadow": true,
+    "bodyAndBackgroundDoNotWarp": true
+  },
+  "tenguDetailPreview": {
+    "file": "rank-5-tengu-detail-v5.gif",
+    "width": 480,
+    "height": 440,
+    "durationSeconds": 12,
+    "framesPerSecond": 10,
+    "sourceCrop": [
+      430,
+      445,
+      120,
+      110
+    ]
+  }
+}

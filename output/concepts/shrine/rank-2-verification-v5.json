@@ -1,0 +1,28 @@
+{
+  "file": "rank-2-office-v5.gif",
+  "dimensions": [
+    600,
+    1300
+  ],
+  "frames": 240,
+  "durationMilliseconds": 12000,
+  "loop": "infinite",
+  "bytes": 1637997,
+  "regionUniqueFrames": {
+    "water": 240,
+    "writing_hand_and_brush": 121,
+    "brush_tip": 121,
+    "noren": 240,
+    "hidden_upper_world": 1,
+    "head": 1,
+    "seated_body": 1,
+    "closed_door": 1,
+    "resting_seal": 1,
+    "paper_away_from_brush": 1,
+    "desk_edge": 1,
+    "front_rail": 1
+  },
+  "continuousWriting": true,
+  "noThinkingOrDepartureOrStamping": true,
+  "fixedBackgroundPaperAndFurniture": true
+}

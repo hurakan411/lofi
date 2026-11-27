@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "texturePrompt": "Edit ONLY THE MARK-MAKING / PIXEL TEXTURE of this clocktower illustration. ABSOLUTELY PRESERVE this image's existing colors, warm orange/brown/violet palette, hue, saturation, brightness, contrast, warm lighting and shadow colors. NO blue recoloring, NO cooler shadows, NO lighting adjustment, NO color grading. Preserve exact 1024x1536 dimensions, every shape/position/geometry, clock hands, gears, pendulum, bell, furnace, tools and pure BLACK background; it is rigged for animation. Convert its smooth painted/beveled surface rendering into refined hand-placed PIXEL ART texture: small visible discrete square pixel clusters, stepped pixel edges, nuanced clustered shading and selective fine dithering following existing forms. At this resolution clusters around 2-4 pixels, more apparent pixelation than the original, not giant blocks or an indiscriminate mosaic filter. Matte hand-crafted pixels, less smooth gradients and round airbrushed highlights. Keep all the original rich detail and exact silhouette while changing ONLY brushstroke/edge/shading texture to pixel-art. Do not redesign or simplify the machinery. Do not add people, objects, text or UI. The result should look exactly like the same warm-colored picture carefully redrawn as detailed pixel art.",
+  "cleanplatePrompt": "Make an exact animation clean background plate from IMAGE 1. IMAGE 2 shows which moving objects to REMOVE, use it only as a removal guide. Keep IMAGE 1's WARM ORIGINAL COLOR PALETTE, exact pixel-art clusters, 1024x1536 dimensions and geometry. Do not change colors or cool the shadows. Remove ONLY: long pendulum rod, collars, brass bob and bottom finial; all THREE large middle gears (keep fixed axles, belt and support timber); top bell (keep suspension); both clock hands and central cap (keep dial hour marks); ONLY the sliding hammer head and short lower rod on the ground-floor tabletop machine (keep machine frame and flywheel). Reconstruct the continuing pixel-art background behind those removed objects as in IMAGE 2. Keep the tabletop machine frame and wheel even if the guide removes more. All other details and warm colors exactly unchanged. Pure black backdrop, no new elements, no people.",
+  "renderer": "scripts/animate_ember_clocktower_pixel_warm.swift",
+  "output": "rank-5-clocktower-animation-v5-pixel-warm.gif",
+  "colorReference": "rank-5-clocktower-v1.png (original warm palette)",
+  "minuteTickSeconds": 1.5,
+  "pendulumPeriodSeconds": 4,
+  "loopSeconds": 72,
+  "fps": 20,
+  "width": 512,
+  "height": 768,
+  "audio": false
+}

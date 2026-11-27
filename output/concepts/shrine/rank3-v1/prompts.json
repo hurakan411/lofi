@@ -1,0 +1,24 @@
+{
+  "tool": "built-in imagegen",
+  "base": {
+    "prompt": "Use case: precise-object-edit. Asset type: rank3 base plate for an evolving lofi pixel-art shrine world.\nImage1 is the APPROVED COMPLETE daytime world. Image2 is current rank2 with only water and small office revealed. Expand rank2 by revealing only the immediate LOWER FOREGROUND from image1: the circular mossy STONE BASIN with full rim and front stone wall around the exact water surface, the bamboo water spout to its left, low mossy stone retaining blocks, nearby LOW greenery, and the foreground stone paving / FIRST FEW shallow steps that connect the basin toward the office. Same fixed camera, exact original object positions and scale, no crop or zoom. Portrait iPhone canvas852x1846. Keep basin water in image1 exact location at x~17%,y~89%, and office same small lower-right location; Image2 office is the precise scale reference. No character enlargement.\nRevealed scenery is daytime with cool daylight and warm desk lantern; the near-black void is an UNREVEALED world mask, not night.\nREVEAL LIMIT: background above about y=75% stays charcoal-black #080a0d, EXCEPT already revealed office patch beginning near y=65%. The shallow central paving can reach up to y=76%, ending softly in darkness before distant staircases. No large foreground torii or its red pillars/rope/bell may be visible. Do NOT reveal any shrine halls, office roof above existing small nook, tall lanterns above y=75%, high retaining walls, distant torii, forest canopy, giant tree trunks or upper architecture. Only the bottom quarter grows out around the existing lower-left water and lower-right office, connected with cozy stone paving. Fade irregular outer scenery edges gently into dark void, avoid a straight rectangular horizontal cut.\nFor animation preparation keep the THREE frontmost plant patches EMPTY on the bottom edge: bottom-left fern in x=0..12%, y=93..100%; bottom-center fern in x=24..41%,y=93..100%; lower-right broadleaf clump x=82..100%,y=91..100%. Leave textured ground or mossy stone beneath them, no cutout holes; those three plants will be layered back as separate animated sprites. All other small moss and low plants remain.\nPreserve fine textured illustrated pixel-art style of original, dappled DAYLIGHT, original basin/stone/bamboo shapes. Clerk is tiny black long-haired fox-masked administrative woman at her desk, ivory sleeves and vermilion hakama; her office animation will be composited unchanged on top so don't enlarge, reframe or add people.\nNo rain, no UI, no text, no watermark, no new narrative objects. One complete portrait static base for rank3.\n",
+    "referenceImages": [
+      "rank-5-redrawn-v16.png",
+      "rank-2-first-frame-v10.png"
+    ],
+    "generated": "rank3-v1/base-generated.png",
+    "registered": "rank3-v1/base-framed.png",
+    "registration": "uniform width fit and bottom alignment, preserves aspect ratio"
+  },
+  "plants": {
+    "prompt": "Use case: compositing. Asset type: transparent foreground plant sprites for a detailed lofi shrine illustration.\nImage1 is the exact daytime pixel-illustration environment reference. Create THREE isolated leafy plant clumps to layer into its three empty frontmost patches, in a clean horizontal 3-COLUMN x1-ROW spritesheet, landscape canvas. True transparent alpha, no table, ground, rock, basin, office, frame, shadow blobs or text. Each plant entirely within its own equal-width cell, ample transparent margins. ALL roots at bottom center of each cell, all leaf tips visible. No pots.\nLeft cell: a slender forest fern with about7 independent arcing fronds, some to left and some right, visible tiny paired leaflets, dark olive stems, moss green leaves edged with restrained golden daytime dappled light. Center cell: a different small wider fern with about9 fronds at different heights, asymmetrical, slightly yellow-green highlights. Right cell: a low lush forest undergrowth clump with about5 slender stems bearing small pointed oval leaves, asymmetrical olive/forest green, some younger lime leaves. Keep stems/leaflets clear, rooted in a single compact visible stem base.\nMatch EXACT fine illustrated PIXEL ART texture of Image1: softly textured tiny discrete pixel clusters, modest earthy greens and warm daylight, no smooth photoreal leaves, no vector outlines, no coarse8bit or 3D. Each whole clump will be rendered about80-120pixels tall on a600px wide portrait so readable frond shapes matter. Plants are secondary scene details, not giant decorative houseplants. Vary leaf directions naturally, do not mirror all fronds. Only these3 complete transparent plant clumps, nothing else.\n",
+    "referenceImages": [
+      "rank3-v1/foreground-reference.png"
+    ],
+    "generated": "rank3-v1/plants.png"
+  },
+  "inheritedPosePrompts": [
+    "v9/prompts.json",
+    "v10/head-correction-prompt.txt"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "rank": 1,
+    "source": "output/concepts/ember-workshop/stages-v1/rank-1-animation-v1.gif",
+    "bundle": "Lofi/Resources/Scenes/ember-workshop-rank-1.gif",
+    "sha256": "24fa28f441881fb5f7bf3761274f924e4699f4ce59e6de1e27de780c3d4a8b28"
+  },
+  {
+    "rank": 2,
+    "source": "output/concepts/ember-workshop/stages-v1/rank-2-animation-v1.gif",
+    "bundle": "Lofi/Resources/Scenes/ember-workshop-rank-2.gif",
+    "sha256": "e594fca2f7b2daa343f3c4d6548b1b0bdc62c76eb5d6ba51f1b301e8ca192f61"
+  },
+  {
+    "rank": 3,
+    "source": "output/concepts/ember-workshop/stages-v1/rank-3-mechanical-animation-v1.gif",
+    "bundle": "Lofi/Resources/Scenes/ember-workshop-rank-3.gif",
+    "sha256": "3c8d72b2c0fe6376a88f698b8474d19f4f1eba9df13efec22e1d73e492cf4858"
+  },
+  {
+    "rank": 4,
+    "source": "output/concepts/ember-workshop/stages-v1/rank-4-mechanical-animation-v1.gif",
+    "bundle": "Lofi/Resources/Scenes/ember-workshop-rank-4.gif",
+    "sha256": "9c0bfa3313b0f0c78e5ef8df06beacad0b2672825e3831c4ead1a591aa45acbb"
+  },
+  {
+    "rank": 5,
+    "source": "output/concepts/ember-workshop/stages-v1/rank-5-clocktower-animation-v6-matched.gif",
+    "bundle": "Lofi/Resources/Scenes/ember-workshop-rank-5.gif",
+    "sha256": "5dd282051b4e560b30d5f125a1283e55da42587b42bdda05fdb56f0a59cba16f"
+  }
+]

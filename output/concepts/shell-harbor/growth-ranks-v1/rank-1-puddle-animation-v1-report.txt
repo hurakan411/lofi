@@ -1,0 +1,9 @@
+Rank1 shell: 642x882, 200 frames, 25fps, 8.0s infinite loop.
+Output: rank-1-puddle-animation-v1.gif; 7216798 bytes.
+Source: rank-1-puddle-v3.png.
+Only inner water, pendant/falling droplets and small puddle move. Four drops per loop.
+Water patch bounds: 180,564 to 521,700. Puddle shoreline remains fixed.
+Changed pixels over loop: 19564; outside-motion changes: 0.
+Loop-seam mean difference: 0.07364721617506866; largest adjacent-frame mean difference: 0.09299810759664774.
+Decoded frame count and duration verified; fixed shared palette, no temporal dithering.
+GIF has no audio. Illustration, shell, land and camera remain fixed.

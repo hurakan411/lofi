@@ -1,0 +1,24 @@
+{
+  "file": "rank-5-shrine-v6.gif",
+  "dimensions": [
+    600,
+    1300
+  ],
+  "frames": 2400,
+  "durationSeconds": 120,
+  "loop": "infinite",
+  "bytes": 160631255,
+  "tenguAndSeatShadowRemoved": true,
+  "originalToriiPixelsRestored": true,
+  "walkingStairFoxesRemainRemoved": true,
+  "restingForegroundFoxesPreserved": true,
+  "onlyTenguRegionChanged": [
+    480,
+    475,
+    505,
+    519
+  ],
+  "all80LeafPathsAndEnvironmentalLayersPreserved": true,
+  "clerkTimelinePreserved": true,
+  "remainingWalkingVisitors": 4
+}

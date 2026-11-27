@@ -1,0 +1,15 @@
+White platform rank 5: 642x882, 600 frames, 25fps, 24.0s infinite loop.
+Output: rank-5-animation-v2-living-sea.gif; 11458157 bytes.
+Source: rank-5-sea-v2.png.
+Completed miniature shell harbor: spiral village, stone footbridge, lighthouse and waterfront workshop. Workshop wheel turns twice per loop in its own oblique plane; wall/frame/axle fixed. Lighthouse lantern gently changes brightness inside its glass only.
+Expanded surrounding sea within the white disk, with a coastal boat moving continuously around a closed foreground route, natural turn compression and a curved wake. Path verified to remain on open water; no vessel disappearance at loop boundaries.
+One adult leans on the bridge behind the foreground parapet; two small children hop and toss a ball on the cottage terrace. Isolated image-generated alpha assets, intact body poses, shared transforms and fixed ground shadows. Lamp double-flash bursts at 6s and 17s. Tree tips and dark twigs bend with leaf clusters while protected trunk pixels stay fixed.
+Boat, fisher, rod, line and float share boat motion at their new position. Three chimneys emit connected, independently phased rising smoke. Color-isolated leaves/foliage flutter with static trunks, branches, roofs and walls. Four fish jumps include one larger 38px fish.
+Six traced flow ribbons cover the original upper cascade chain/outlet and the new bridge tributary/wheel outlet. Source water texture retained; filaments move downstream with integer loop frequencies, and source rock colors are rejected. Water/pier/fish positions adapted to new shore.
+Three birds start/finish on grass; two fly local routes to drink and return, one circles the shell. No off-canvas entry/exit. Drinking contacts, finite flight positions, real cutout alpha and monotonic downstream flow geometry verified.
+Water patch bounds: 36,252 to 606,738. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind/bird regions: 93550.
+Changed pixels over loop: 93550; outside-motion changes: 0.
+Loop-seam mean difference: 0.17828462174168233; largest adjacent-frame mean difference: 0.20952364126754178.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

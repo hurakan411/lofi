@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "style-transfer",
+  "target": "rank-5-clocktower-v3-pixel-warm.png",
+  "styleReference": "rank-4-mechanical-v1.png",
+  "prompt": "Preserve exact clocktower composition and component positions. Replace coarse crunchy pixels, bright edge outlines and excessive contrast with rank 4 fine softly clustered pixel-painterly lo-fi material texture, subdued highlights, weathered wood, stone and aged brass. Preserve warm palette and black background.",
+  "cleanplatePrompt": "Remove only clock hands and cap, three gears, pendulum, bell, tiny hammer piston and smoke. Reconstruct backgrounds; preserve all other details and exact geometry.",
+  "base": "rank-5-clocktower-v4-matched.png",
+  "cleanplate": "rank-5-clocktower-cleanplate-v4-matched.png",
+  "renderer": "scripts/animate_ember_clocktower_matched.swift",
+  "output": "rank-5-clocktower-animation-v6-matched.gif",
+  "minuteTickSeconds": 1.5,
+  "pendulumPeriodSeconds": 4,
+  "loopSeconds": 72,
+  "fps": 20,
+  "width": 512,
+  "height": 768
+}

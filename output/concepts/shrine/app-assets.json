@@ -1,0 +1,63 @@
+[
+  {
+    "rank": 1,
+    "source": "output/concepts/shrine/rank-1-water-mist-v2.gif",
+    "bundled": "Lofi/Resources/Scenes/shrine-rank-1.gif",
+    "sha256": "8f9c2351f9ff8abcdba1575487f56a2e09172fda84d54eb73bef3cc3f79e511d",
+    "bytes": 1270566,
+    "width": 600,
+    "height": 1300,
+    "frames": 240,
+    "durationSeconds": 12,
+    "previousSource": "output/concepts/shrine/rank-1-water.gif",
+    "postProcessor": "scripts/recolor_shrine_early_mist.swift"
+  },
+  {
+    "rank": 2,
+    "source": "output/concepts/shrine/rank-2-office-mist-v11.gif",
+    "bundled": "Lofi/Resources/Scenes/shrine-rank-2.gif",
+    "sha256": "7649ec1cbdad5d312084a655ce16d016ea6d7ac05c13ff90efc48153f9f020fb",
+    "bytes": 18763151,
+    "width": 600,
+    "height": 1300,
+    "frames": 2400,
+    "durationSeconds": 120,
+    "previousSource": "output/concepts/shrine/rank-2-office-v10.gif",
+    "postProcessor": "scripts/recolor_shrine_early_mist.swift"
+  },
+  {
+    "rank": 3,
+    "source": "output/concepts/shrine/rank-3-foreground-mist-v5.gif",
+    "bundled": "Lofi/Resources/Scenes/shrine-rank-3.gif",
+    "sha256": "afea8293e5c5c506d1b8e207a888952329a88e00299920989fa85a2f4b131d92",
+    "bytes": 43407451,
+    "width": 600,
+    "height": 1300,
+    "frames": 2400,
+    "durationSeconds": 120,
+    "previousSource": "output/concepts/shrine/rank-3-foreground-v4.gif",
+    "postProcessor": "scripts/recolor_shrine_early_mist.swift"
+  },
+  {
+    "rank": 4,
+    "source": "output/concepts/shrine/rank-4-shrine-v6.gif",
+    "bundled": "Lofi/Resources/Scenes/shrine-rank-4.gif",
+    "sha256": "96b73cf5bdf9fa98126c9086bb06c990d0fe198c4e1e3a98ef7310ce43915c33",
+    "bytes": 121327124,
+    "width": 600,
+    "height": 1300,
+    "frames": 2400,
+    "durationSeconds": 120
+  },
+  {
+    "rank": 5,
+    "source": "output/concepts/shrine/rank-5-shrine-v6.gif",
+    "bundled": "Lofi/Resources/Scenes/shrine-rank-5.gif",
+    "sha256": "df4314638cf69f7bfbca43cc5c1444645763ea5c37c540c5be334fdcc02f9c70",
+    "bytes": 160631255,
+    "width": 600,
+    "height": 1300,
+    "frames": 2400,
+    "durationSeconds": 120
+  }
+]

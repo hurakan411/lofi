@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FA908675305AAC0F74FA1A /* wind.wav in Resources */ = {isa = PBXBuildFile; fileRef = E50612FF4CAE1D4C5B0F3A42 /* wind.wav */; };
+		057B85DAFDCF6FF0DEAC2D47 /* ember-workshop-rank-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 453C71B3CD411D8D1643950D /* ember-workshop-rank-3.gif */; };
+		0BD619AA50D0E7D823B5A661 /* debug-collection-flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87D57B79C06D653E677E6FE3 /* debug-collection-flowers.jpg */; };
+		0E8EF3A96E9D77B14DB340FA /* rooftop-rank-5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0BD45CE272D01FBCFEBDFBCA /* rooftop-rank-5.gif */; };
+		12DD4DCF48EABD5563AC0BC8 /* SceneViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9AD509D4CA59B96E016BD4 /* SceneViewport.swift */; };
+		1380B9686D2201B2E79B192D /* shrine-rank-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE3D84D34642E2713532F864 /* shrine-rank-2.gif */; };
+		14E46735CC9AF03434833C97 /* rooftop-rank-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 193D0A5BC6C5624E4724E2E9 /* rooftop-rank-1.gif */; };
+		154AF1557DF23122FE3F5D25 /* birds.wav in Resources */ = {isa = PBXBuildFile; fileRef = 358829EF13F000A292B7639C /* birds.wav */; };
+		1822C35BD0AB01220113F76B /* ShellHarborTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110C582AC7A18FCD55BAB86 /* ShellHarborTests.swift */; };
+		198B565A4354C62C02083FC9 /* FocusModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8017E8A42BE5A7041F79B7 /* FocusModels.swift */; };
+		1FC29FF0DBDB43B6AFF39F26 /* ember-workshop-rank-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 802910155F6E669F7B20CE51 /* ember-workshop-rank-2.gif */; };
+		1FF023E37E9E936FA95444BB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD238464F0C206663C49232B /* Theme.swift */; };
+		23C2337BB065E8A4121DE7A2 /* hammer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5613343B0D47DEE14F8CE1 /* hammer.wav */; };
+		2E12B4923E4071265599F3E8 /* brush.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF04CCF89E6713B17F3DD36A /* brush.wav */; };
+		2E24368F67578EE70CEA12FF /* AnimatedGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB336D51FD5696A56AC01A /* AnimatedGIFView.swift */; };
+		3293D412E0A0681BEE220E82 /* ember-workshop-rank-5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6240BE902CCE79D99FB669A2 /* ember-workshop-rank-5.gif */; };
+		377B082070025B5D3F051D6D /* shrine-rank-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = BAD3AFCE5CA09F44DC87C2BE /* shrine-rank-3.gif */; };
+		388923A75F3871E3AAC10CE2 /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = B264DD1F4AE0EE77A77D4BEF /* bell.wav */; };
+		3E48255D4749AEAAC9BEB831 /* shell-harbor-rank-5.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABD573E566AF5D194A8132FD /* shell-harbor-rank-5.gif */; };
+		3F368DB9AB38884BDA258436 /* clockwork.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B95384D2AAC54830B8E7169 /* clockwork.wav */; };
+		4C66CA548FADCF0B24BC71C4 /* FocusStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BC7F800DADBE47879D18A /* FocusStore.swift */; };
+		58E665334336C405D43C8A93 /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = B13841158110ECAC2A3076B5 /* fire.wav */; };
+		59A1D513C75C1968ACB266B3 /* shell-harbor-rank-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 090918C71D3035F9B457A267 /* shell-harbor-rank-1.gif */; };
+		59B0BC2C68C2B7B01E88F33F /* water.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0718BBA1DBB29E31D7B35021 /* water.wav */; };
+		5E525C5173DE56B495C0BA9B /* shrine-rank-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 56A76C060BFEB9E797928820 /* shrine-rank-4.gif */; };
+		5EED3D528719E82A4FE0657A /* rooftop-rank-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6CD982B8038DAB5622E331A9 /* rooftop-rank-4.gif */; };
+		62E88C7D7C6B0EFA4C0593FB /* FocusTimerNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B4A2A3A579E0B0E320FA3 /* FocusTimerNotifications.swift */; };
+		67E47B4FC33861D016762B9B /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9ECA98BA339F9075B98C0D /* SettingsPage.swift */; };
+		6864983CFE6095CA156BDE6C /* SpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5261DAA399851092C1C8E /* SpectrumTests.swift */; };
+		6A6312A29C32B3EC88264E6C /* EmberWorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D238BF361467196E889EF /* EmberWorkshopTests.swift */; };
+		6C018E6B02C043661FF9243F /* ember-workshop-rank-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40C3DBAD7FAAB5E4656786D7 /* ember-workshop-rank-1.gif */; };
+		6CE15C4EFFC811D01CEEF4AA /* debug-collection-mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52613D27232C580631A59153 /* debug-collection-mountain.jpg */; };
+		6D1DA9DDDE96B3C6BD823EB9 /* shell-harbor-rank-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95AE919AD1D89FB34DAC4697 /* shell-harbor-rank-2.gif */; };
+		76474C43D345DA00A52B68DC /* pages.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E63C771F910D2B627C344 /* pages.wav */; };
+		7920EBE9836F5D128078CC01 /* grinder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3EA58B59765F176D5DB2F /* grinder.wav */; };
+		7A9021E98BBFBCDD38F4CFC9 /* SettingsArtwork.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBABBC031CFB5E30EFA32B07 /* SettingsArtwork.xcassets */; };
+		7C43967A12099DEE576E62B6 /* SoundscapePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA493D83FB886ABF194524A /* SoundscapePlayer.swift */; };
+		7CADD0E6B91B700EE0B67F9A /* shell-harbor-rank-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D4DC09A32106195AB86E09C /* shell-harbor-rank-3.gif */; };
+		826C66119E2F97D38070A7CB /* EmberWorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824B71764068C40B5D0B196 /* EmberWorkshopTests.swift */; };
+		82C6D8DD3BC41FEB99A07994 /* CollectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A055FC5381635DEDDE50075 /* CollectionPage.swift */; };
+		888FE10DB2665310E0D9A535 /* CollectionStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CBB784F7C5184AAB74603 /* CollectionStory.swift */; };
+		8DDA65D9F204181B2CB5815D /* debug-collection-moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D77CBFB96EA60B8C211E6A1 /* debug-collection-moon.jpg */; };
+		915492771A223EC5DB6F4F5B /* SoundAndSessionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629C4D13A4A071C392C61AA /* SoundAndSessionSheets.swift */; };
+		9277EC628159828A111B03E7 /* CollectionStorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4412B50ED9061444F85C797E /* CollectionStorySheet.swift */; };
+		9593BF82A348EEF683EC889A /* LofiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D4D9DDCEA7A4F4895A5CA /* LofiApp.swift */; };
+		9A073BF3276A815E1EB27838 /* embers.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AABA80A011F0A3D406AA903 /* embers.wav */; };
+		A850F313280562E5C2C7A63B /* NowPlayingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B2AA1C5562D083BE233B2 /* NowPlayingPanel.swift */; };
+		AD95FE6D6685C4A1A8D9A261 /* ember-workshop-rank-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E88D148330F394CE9FE76E87 /* ember-workshop-rank-4.gif */; };
+		B515E8587AE23BFCFEBBB52D /* rooftop-rank-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C75DB9E35D44CF57CA5B7322 /* rooftop-rank-3.gif */; };
+		B94A8F17661F6C67BAADED5F /* bellows.wav in Resources */ = {isa = PBXBuildFile; fileRef = 577863B14FD417D134614482 /* bellows.wav */; };
+		BE69308C8B83A80D49B24419 /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A15042BA4F69E3CDD37D2 /* TimerTests.swift */; };
+		C12BE49B6FDB733D3E76FEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6492634CD6B088A673186 /* ContentView.swift */; };
+		C1FBA7B78278AB5D5E3D4155 /* StartModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499460FEADE86BFD7ADAEA9B /* StartModeTests.swift */; };
+		CD97A2B68A8E7BEB95A731D7 /* timer-chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 378A8A0F24489B47CCF47E2A /* timer-chime.wav */; };
+		CDC16ABEBFD6459E4A516227 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A82D0A5947A7D45B97693BA /* rain.wav */; };
+		CE487A302CA3414E923A25C2 /* shell-harbor-rank-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2A14A987DB0394126193CA75 /* shell-harbor-rank-4.gif */; };
+		D17EC1079698DA1202D2EC86 /* shrine-rank-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0523E1FA7D0E2A0D6BF8BF70 /* shrine-rank-1.gif */; };
+		D33C5806A14973CD3327EB51 /* rooftop-rank-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B8333B4E4EB5720AD26A0EC /* rooftop-rank-2.gif */; };
+		D702146D5145B1DC18D39974 /* StartModeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EEF48E78F1262BF9070495 /* StartModeControl.swift */; };
+		D7AF30E5AF9F15FA319FCAC9 /* FocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC01BBDC84C842429A6DCDE /* FocusTests.swift */; };
+		DE4695555B2E837DEF600D37 /* shrine-rank-5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2466BBA9B81128944D1E7537 /* shrine-rank-5.gif */; };
+		E0224402611AE0A81D336E6B /* ShellHarborTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61678A58A54AF5ABAAEC4FFE /* ShellHarborTests.swift */; };
+		E0A165D4D1FA806032BF4F19 /* debug-collection-library.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B769CEE047EF6BF1B91A7 /* debug-collection-library.gif */; };
+		E0C83A2B43AEC308AF7624EA /* debug-collection-forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F17E7518507780AF1240769 /* debug-collection-forest.jpg */; };
+		F6DFFF9E04AAE67C4565B620 /* MusicSpectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD89BEB7D309F3EDDD19BC5 /* MusicSpectrum.swift */; };
+		FCFEC4B6D6F165D3E2B4A687 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4777DF177F422A88BE50845F /* music.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A352067312278434E9D07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7980A253D2B5FEC5B3DD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA55022CD2D66C405BE53A3;
+			remoteInfo = Lofi;
+		};
+		E4DB2315D24BE6822B9CFC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7980A253D2B5FEC5B3DD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA55022CD2D66C405BE53A3;
+			remoteInfo = Lofi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0523E1FA7D0E2A0D6BF8BF70 /* shrine-rank-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shrine-rank-1.gif"; sourceTree = "<group>"; };
+		0718BBA1DBB29E31D7B35021 /* water.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = water.wav; sourceTree = "<group>"; };
+		090918C71D3035F9B457A267 /* shell-harbor-rank-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-harbor-rank-1.gif"; sourceTree = "<group>"; };
+		0A9ECA98BA339F9075B98C0D /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		0BD45CE272D01FBCFEBDFBCA /* rooftop-rank-5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rooftop-rank-5.gif"; sourceTree = "<group>"; };
+		0E4D4D9DDCEA7A4F4895A5CA /* LofiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LofiApp.swift; sourceTree = "<group>"; };
+		160FBE15081D727466E2337E /* LofiUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LofiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193D0A5BC6C5624E4724E2E9 /* rooftop-rank-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rooftop-rank-1.gif"; sourceTree = "<group>"; };
+		1C8017E8A42BE5A7041F79B7 /* FocusModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModels.swift; sourceTree = "<group>"; };
+		2466BBA9B81128944D1E7537 /* shrine-rank-5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shrine-rank-5.gif"; sourceTree = "<group>"; };
+		2A14A987DB0394126193CA75 /* shell-harbor-rank-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-harbor-rank-4.gif"; sourceTree = "<group>"; };
+		2A5613343B0D47DEE14F8CE1 /* hammer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hammer.wav; sourceTree = "<group>"; };
+		358829EF13F000A292B7639C /* birds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = birds.wav; sourceTree = "<group>"; };
+		378A8A0F24489B47CCF47E2A /* timer-chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "timer-chime.wav"; sourceTree = "<group>"; };
+		40C3DBAD7FAAB5E4656786D7 /* ember-workshop-rank-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ember-workshop-rank-1.gif"; sourceTree = "<group>"; };
+		42EB336D51FD5696A56AC01A /* AnimatedGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGIFView.swift; sourceTree = "<group>"; };
+		4412B50ED9061444F85C797E /* CollectionStorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionStorySheet.swift; sourceTree = "<group>"; };
+		453C71B3CD411D8D1643950D /* ember-workshop-rank-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ember-workshop-rank-3.gif"; sourceTree = "<group>"; };
+		45C6492634CD6B088A673186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4777DF177F422A88BE50845F /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		499460FEADE86BFD7ADAEA9B /* StartModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartModeTests.swift; sourceTree = "<group>"; };
+		4AC01BBDC84C842429A6DCDE /* FocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTests.swift; sourceTree = "<group>"; };
+		4AC3EA58B59765F176D5DB2F /* grinder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = grinder.wav; sourceTree = "<group>"; };
+		4D77CBFB96EA60B8C211E6A1 /* debug-collection-moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "debug-collection-moon.jpg"; sourceTree = "<group>"; };
+		4E8E63C771F910D2B627C344 /* pages.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pages.wav; sourceTree = "<group>"; };
+		4EA493D83FB886ABF194524A /* SoundscapePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapePlayer.swift; sourceTree = "<group>"; };
+		518D238BF361467196E889EF /* EmberWorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberWorkshopTests.swift; sourceTree = "<group>"; };
+		52613D27232C580631A59153 /* debug-collection-mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "debug-collection-mountain.jpg"; sourceTree = "<group>"; };
+		56A76C060BFEB9E797928820 /* shrine-rank-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shrine-rank-4.gif"; sourceTree = "<group>"; };
+		577863B14FD417D134614482 /* bellows.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bellows.wav; sourceTree = "<group>"; };
+		5A82D0A5947A7D45B97693BA /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rain.wav; sourceTree = "<group>"; };
+		5F17E7518507780AF1240769 /* debug-collection-forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "debug-collection-forest.jpg"; sourceTree = "<group>"; };
+		61678A58A54AF5ABAAEC4FFE /* ShellHarborTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellHarborTests.swift; sourceTree = "<group>"; };
+		6240BE902CCE79D99FB669A2 /* ember-workshop-rank-5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ember-workshop-rank-5.gif"; sourceTree = "<group>"; };
+		6629C4D13A4A071C392C61AA /* SoundAndSessionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAndSessionSheets.swift; sourceTree = "<group>"; };
+		66EEF48E78F1262BF9070495 /* StartModeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartModeControl.swift; sourceTree = "<group>"; };
+		6A2B769CEE047EF6BF1B91A7 /* debug-collection-library.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "debug-collection-library.gif"; sourceTree = "<group>"; };
+		6AABA80A011F0A3D406AA903 /* embers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = embers.wav; sourceTree = "<group>"; };
+		6B8333B4E4EB5720AD26A0EC /* rooftop-rank-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rooftop-rank-2.gif"; sourceTree = "<group>"; };
+		6BD89BEB7D309F3EDDD19BC5 /* MusicSpectrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSpectrum.swift; sourceTree = "<group>"; };
+		6CD982B8038DAB5622E331A9 /* rooftop-rank-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rooftop-rank-4.gif"; sourceTree = "<group>"; };
+		7824B71764068C40B5D0B196 /* EmberWorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberWorkshopTests.swift; sourceTree = "<group>"; };
+		7D4DC09A32106195AB86E09C /* shell-harbor-rank-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-harbor-rank-3.gif"; sourceTree = "<group>"; };
+		802910155F6E669F7B20CE51 /* ember-workshop-rank-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ember-workshop-rank-2.gif"; sourceTree = "<group>"; };
+		86586EA51E3B1EE2067A84E2 /* LofiTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LofiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D57B79C06D653E677E6FE3 /* debug-collection-flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "debug-collection-flowers.jpg"; sourceTree = "<group>"; };
+		8A055FC5381635DEDDE50075 /* CollectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPage.swift; sourceTree = "<group>"; };
+		8B95384D2AAC54830B8E7169 /* clockwork.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clockwork.wav; sourceTree = "<group>"; };
+		95AE919AD1D89FB34DAC4697 /* shell-harbor-rank-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-harbor-rank-2.gif"; sourceTree = "<group>"; };
+		9F6B4A2A3A579E0B0E320FA3 /* FocusTimerNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerNotifications.swift; sourceTree = "<group>"; };
+		A79CBB784F7C5184AAB74603 /* CollectionStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionStory.swift; sourceTree = "<group>"; };
+		ABD573E566AF5D194A8132FD /* shell-harbor-rank-5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shell-harbor-rank-5.gif"; sourceTree = "<group>"; };
+		B13841158110ECAC2A3076B5 /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
+		B264DD1F4AE0EE77A77D4BEF /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
+		B29A15042BA4F69E3CDD37D2 /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
+		B50B2AA1C5562D083BE233B2 /* NowPlayingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingPanel.swift; sourceTree = "<group>"; };
+		BAD3AFCE5CA09F44DC87C2BE /* shrine-rank-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shrine-rank-3.gif"; sourceTree = "<group>"; };
+		BB9AD509D4CA59B96E016BD4 /* SceneViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewport.swift; sourceTree = "<group>"; };
+		BD238464F0C206663C49232B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C75DB9E35D44CF57CA5B7322 /* rooftop-rank-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rooftop-rank-3.gif"; sourceTree = "<group>"; };
+		CED5261DAA399851092C1C8E /* SpectrumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumTests.swift; sourceTree = "<group>"; };
+		D110C582AC7A18FCD55BAB86 /* ShellHarborTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellHarborTests.swift; sourceTree = "<group>"; };
+		DBABBC031CFB5E30EFA32B07 /* SettingsArtwork.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SettingsArtwork.xcassets; sourceTree = "<group>"; };
+		E50612FF4CAE1D4C5B0F3A42 /* wind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wind.wav; sourceTree = "<group>"; };
+		E7C8BAAD9C960F0D4612D8B8 /* Lofi.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lofi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88D148330F394CE9FE76E87 /* ember-workshop-rank-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ember-workshop-rank-4.gif"; sourceTree = "<group>"; };
+		F29BC7F800DADBE47879D18A /* FocusStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStore.swift; sourceTree = "<group>"; };
+		FA6E7AB8EEB62F4B51F245D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE3D84D34642E2713532F864 /* shrine-rank-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "shrine-rank-2.gif"; sourceTree = "<group>"; };
+		FF04CCF89E6713B17F3DD36A /* brush.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brush.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00918E6674DD58F2EF76B870 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				320A8A789D0F99260BB14D28 /* Audio */,
+				352848D10D39BECEA9CD489A /* DebugCollections */,
+				09871E61108DCDC488B01D49 /* Scenes */,
+				9A41B626E29111710CB9B7C2 /* Settings */,
+			);
+			name = Resources;
+			path = Lofi/Resources;
+			sourceTree = "<group>";
+		};
+		09871E61108DCDC488B01D49 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				40C3DBAD7FAAB5E4656786D7 /* ember-workshop-rank-1.gif */,
+				802910155F6E669F7B20CE51 /* ember-workshop-rank-2.gif */,
+				453C71B3CD411D8D1643950D /* ember-workshop-rank-3.gif */,
+				E88D148330F394CE9FE76E87 /* ember-workshop-rank-4.gif */,
+				6240BE902CCE79D99FB669A2 /* ember-workshop-rank-5.gif */,
+				193D0A5BC6C5624E4724E2E9 /* rooftop-rank-1.gif */,
+				6B8333B4E4EB5720AD26A0EC /* rooftop-rank-2.gif */,
+				C75DB9E35D44CF57CA5B7322 /* rooftop-rank-3.gif */,
+				6CD982B8038DAB5622E331A9 /* rooftop-rank-4.gif */,
+				0BD45CE272D01FBCFEBDFBCA /* rooftop-rank-5.gif */,
+				090918C71D3035F9B457A267 /* shell-harbor-rank-1.gif */,
+				95AE919AD1D89FB34DAC4697 /* shell-harbor-rank-2.gif */,
+				7D4DC09A32106195AB86E09C /* shell-harbor-rank-3.gif */,
+				2A14A987DB0394126193CA75 /* shell-harbor-rank-4.gif */,
+				ABD573E566AF5D194A8132FD /* shell-harbor-rank-5.gif */,
+				0523E1FA7D0E2A0D6BF8BF70 /* shrine-rank-1.gif */,
+				FE3D84D34642E2713532F864 /* shrine-rank-2.gif */,
+				BAD3AFCE5CA09F44DC87C2BE /* shrine-rank-3.gif */,
+				56A76C060BFEB9E797928820 /* shrine-rank-4.gif */,
+				2466BBA9B81128944D1E7537 /* shrine-rank-5.gif */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1605CB08C45E65032815A384 /* LofiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				518D238BF361467196E889EF /* EmberWorkshopTests.swift */,
+				D110C582AC7A18FCD55BAB86 /* ShellHarborTests.swift */,
+				499460FEADE86BFD7ADAEA9B /* StartModeTests.swift */,
+			);
+			path = LofiUITests;
+			sourceTree = "<group>";
+		};
+		24521FC6F360566A9E5EB55D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42EB336D51FD5696A56AC01A /* AnimatedGIFView.swift */,
+				F29BC7F800DADBE47879D18A /* FocusStore.swift */,
+				9F6B4A2A3A579E0B0E320FA3 /* FocusTimerNotifications.swift */,
+				6BD89BEB7D309F3EDDD19BC5 /* MusicSpectrum.swift */,
+				4EA493D83FB886ABF194524A /* SoundscapePlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2EDAFE466CB3E57727691D96 /* Lofi */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E7AB8EEB62F4B51F245D4 /* Info.plist */,
+				EFA88AD73ACCE30B1FFF4FC9 /* App */,
+				E3FFA94E7CE9A9C38DCFEEB5 /* Models */,
+				24521FC6F360566A9E5EB55D /* Services */,
+				E0ED60D788F734FB37868DCE /* Views */,
+			);
+			path = Lofi;
+			sourceTree = "<group>";
+		};
+		320A8A789D0F99260BB14D28 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B264DD1F4AE0EE77A77D4BEF /* bell.wav */,
+				577863B14FD417D134614482 /* bellows.wav */,
+				358829EF13F000A292B7639C /* birds.wav */,
+				FF04CCF89E6713B17F3DD36A /* brush.wav */,
+				8B95384D2AAC54830B8E7169 /* clockwork.wav */,
+				6AABA80A011F0A3D406AA903 /* embers.wav */,
+				B13841158110ECAC2A3076B5 /* fire.wav */,
+				4AC3EA58B59765F176D5DB2F /* grinder.wav */,
+				2A5613343B0D47DEE14F8CE1 /* hammer.wav */,
+				4777DF177F422A88BE50845F /* music.wav */,
+				4E8E63C771F910D2B627C344 /* pages.wav */,
+				5A82D0A5947A7D45B97693BA /* rain.wav */,
+				378A8A0F24489B47CCF47E2A /* timer-chime.wav */,
+				0718BBA1DBB29E31D7B35021 /* water.wav */,
+				E50612FF4CAE1D4C5B0F3A42 /* wind.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		352848D10D39BECEA9CD489A /* DebugCollections */ = {
+			isa = PBXGroup;
+			children = (
+				87D57B79C06D653E677E6FE3 /* debug-collection-flowers.jpg */,
+				5F17E7518507780AF1240769 /* debug-collection-forest.jpg */,
+				6A2B769CEE047EF6BF1B91A7 /* debug-collection-library.gif */,
+				4D77CBFB96EA60B8C211E6A1 /* debug-collection-moon.jpg */,
+				52613D27232C580631A59153 /* debug-collection-mountain.jpg */,
+			);
+			path = DebugCollections;
+			sourceTree = "<group>";
+		};
+		4538382729E1BF157C5CBA2B /* LofiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7824B71764068C40B5D0B196 /* EmberWorkshopTests.swift */,
+				4AC01BBDC84C842429A6DCDE /* FocusTests.swift */,
+				61678A58A54AF5ABAAEC4FFE /* ShellHarborTests.swift */,
+				CED5261DAA399851092C1C8E /* SpectrumTests.swift */,
+				B29A15042BA4F69E3CDD37D2 /* TimerTests.swift */,
+			);
+			path = LofiTests;
+			sourceTree = "<group>";
+		};
+		9A41B626E29111710CB9B7C2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DBABBC031CFB5E30EFA32B07 /* SettingsArtwork.xcassets */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B25F642B602B17658CDB6ECF = {
+			isa = PBXGroup;
+			children = (
+				2EDAFE466CB3E57727691D96 /* Lofi */,
+				4538382729E1BF157C5CBA2B /* LofiTests */,
+				1605CB08C45E65032815A384 /* LofiUITests */,
+				00918E6674DD58F2EF76B870 /* Resources */,
+				EAEC967F1723052E624DB1A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0ED60D788F734FB37868DCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A055FC5381635DEDDE50075 /* CollectionPage.swift */,
+				4412B50ED9061444F85C797E /* CollectionStorySheet.swift */,
+				45C6492634CD6B088A673186 /* ContentView.swift */,
+				B50B2AA1C5562D083BE233B2 /* NowPlayingPanel.swift */,
+				BB9AD509D4CA59B96E016BD4 /* SceneViewport.swift */,
+				0A9ECA98BA339F9075B98C0D /* SettingsPage.swift */,
+				6629C4D13A4A071C392C61AA /* SoundAndSessionSheets.swift */,
+				66EEF48E78F1262BF9070495 /* StartModeControl.swift */,
+				BD238464F0C206663C49232B /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3FFA94E7CE9A9C38DCFEEB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A79CBB784F7C5184AAB74603 /* CollectionStory.swift */,
+				1C8017E8A42BE5A7041F79B7 /* FocusModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAEC967F1723052E624DB1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8BAAD9C960F0D4612D8B8 /* Lofi.app */,
+				86586EA51E3B1EE2067A84E2 /* LofiTests.xctest */,
+				160FBE15081D727466E2337E /* LofiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA88AD73ACCE30B1FFF4FC9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0E4D4D9DDCEA7A4F4895A5CA /* LofiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1796A5B399708C28E8772869 /* LofiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5535D5B1C25C120C12F4B9E0 /* Build configuration list for PBXNativeTarget "LofiTests" */;
+			buildPhases = (
+				35AC1E9554A446B596DAF773 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6294CAEDA4A12F21058105C /* PBXTargetDependency */,
+			);
+			name = LofiTests;
+			packageProductDependencies = (
+			);
+			productName = LofiTests;
+			productReference = 86586EA51E3B1EE2067A84E2 /* LofiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA55022CD2D66C405BE53A3 /* Lofi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B346333D18D304AD83B704 /* Build configuration list for PBXNativeTarget "Lofi" */;
+			buildPhases = (
+				48F331E7CC7DA9562EE5F25E /* Sources */,
+				E2E26EBA58CB683344551E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lofi;
+			packageProductDependencies = (
+			);
+			productName = Lofi;
+			productReference = E7C8BAAD9C960F0D4612D8B8 /* Lofi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C0DB0F0346853D00C673F7 /* LofiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC88F68EEF67CD0BDAAA894 /* Build configuration list for PBXNativeTarget "LofiUITests" */;
+			buildPhases = (
+				81C08DC44C00C36952072620 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830FCA1304C07E07453A9FCD /* PBXTargetDependency */,
+			);
+			name = LofiUITests;
+			packageProductDependencies = (
+			);
+			productName = LofiUITests;
+			productReference = 160FBE15081D727466E2337E /* LofiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7980A253D2B5FEC5B3DD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					1796A5B399708C28E8772869 = {
+						DevelopmentTeam = "";
+					};
+					6CA55022CD2D66C405BE53A3 = {
+						DevelopmentTeam = "";
+					};
+					B3C0DB0F0346853D00C673F7 = {
+						DevelopmentTeam = "";
+						TestTargetID = 6CA55022CD2D66C405BE53A3;
+					};
+				};
+			};
+			buildConfigurationList = 84E93941CE756A4DC01D5674 /* Build configuration list for PBXProject "Lofi" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = B25F642B602B17658CDB6ECF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EAEC967F1723052E624DB1A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA55022CD2D66C405BE53A3 /* Lofi */,
+				1796A5B399708C28E8772869 /* LofiTests */,
+				B3C0DB0F0346853D00C673F7 /* LofiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2E26EBA58CB683344551E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9021E98BBFBCDD38F4CFC9 /* SettingsArtwork.xcassets in Resources */,
+				388923A75F3871E3AAC10CE2 /* bell.wav in Resources */,
+				B94A8F17661F6C67BAADED5F /* bellows.wav in Resources */,
+				154AF1557DF23122FE3F5D25 /* birds.wav in Resources */,
+				2E12B4923E4071265599F3E8 /* brush.wav in Resources */,
+				3F368DB9AB38884BDA258436 /* clockwork.wav in Resources */,
+				0BD619AA50D0E7D823B5A661 /* debug-collection-flowers.jpg in Resources */,
+				E0C83A2B43AEC308AF7624EA /* debug-collection-forest.jpg in Resources */,
+				E0A165D4D1FA806032BF4F19 /* debug-collection-library.gif in Resources */,
+				8DDA65D9F204181B2CB5815D /* debug-collection-moon.jpg in Resources */,
+				6CE15C4EFFC811D01CEEF4AA /* debug-collection-mountain.jpg in Resources */,
+				6C018E6B02C043661FF9243F /* ember-workshop-rank-1.gif in Resources */,
+				1FC29FF0DBDB43B6AFF39F26 /* ember-workshop-rank-2.gif in Resources */,
+				057B85DAFDCF6FF0DEAC2D47 /* ember-workshop-rank-3.gif in Resources */,
+				AD95FE6D6685C4A1A8D9A261 /* ember-workshop-rank-4.gif in Resources */,
+				3293D412E0A0681BEE220E82 /* ember-workshop-rank-5.gif in Resources */,
+				9A073BF3276A815E1EB27838 /* embers.wav in Resources */,
+				58E665334336C405D43C8A93 /* fire.wav in Resources */,
+				7920EBE9836F5D128078CC01 /* grinder.wav in Resources */,
+				23C2337BB065E8A4121DE7A2 /* hammer.wav in Resources */,
+				FCFEC4B6D6F165D3E2B4A687 /* music.wav in Resources */,
+				76474C43D345DA00A52B68DC /* pages.wav in Resources */,
+				CDC16ABEBFD6459E4A516227 /* rain.wav in Resources */,
+				14E46735CC9AF03434833C97 /* rooftop-rank-1.gif in Resources */,
+				D33C5806A14973CD3327EB51 /* rooftop-rank-2.gif in Resources */,
+				B515E8587AE23BFCFEBBB52D /* rooftop-rank-3.gif in Resources */,
+				5EED3D528719E82A4FE0657A /* rooftop-rank-4.gif in Resources */,
+				0E8EF3A96E9D77B14DB340FA /* rooftop-rank-5.gif in Resources */,
+				59A1D513C75C1968ACB266B3 /* shell-harbor-rank-1.gif in Resources */,
+				6D1DA9DDDE96B3C6BD823EB9 /* shell-harbor-rank-2.gif in Resources */,
+				7CADD0E6B91B700EE0B67F9A /* shell-harbor-rank-3.gif in Resources */,
+				CE487A302CA3414E923A25C2 /* shell-harbor-rank-4.gif in Resources */,
+				3E48255D4749AEAAC9BEB831 /* shell-harbor-rank-5.gif in Resources */,
+				D17EC1079698DA1202D2EC86 /* shrine-rank-1.gif in Resources */,
+				1380B9686D2201B2E79B192D /* shrine-rank-2.gif in Resources */,
+				377B082070025B5D3F051D6D /* shrine-rank-3.gif in Resources */,
+				5E525C5173DE56B495C0BA9B /* shrine-rank-4.gif in Resources */,
+				DE4695555B2E837DEF600D37 /* shrine-rank-5.gif in Resources */,
+				CD97A2B68A8E7BEB95A731D7 /* timer-chime.wav in Resources */,
+				59B0BC2C68C2B7B01E88F33F /* water.wav in Resources */,
+				01FA908675305AAC0F74FA1A /* wind.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35AC1E9554A446B596DAF773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C66119E2F97D38070A7CB /* EmberWorkshopTests.swift in Sources */,
+				D7AF30E5AF9F15FA319FCAC9 /* FocusTests.swift in Sources */,
+				E0224402611AE0A81D336E6B /* ShellHarborTests.swift in Sources */,
+				6864983CFE6095CA156BDE6C /* SpectrumTests.swift in Sources */,
+				BE69308C8B83A80D49B24419 /* TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F331E7CC7DA9562EE5F25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E24368F67578EE70CEA12FF /* AnimatedGIFView.swift in Sources */,
+				82C6D8DD3BC41FEB99A07994 /* CollectionPage.swift in Sources */,
+				888FE10DB2665310E0D9A535 /* CollectionStory.swift in Sources */,
+				9277EC628159828A111B03E7 /* CollectionStorySheet.swift in Sources */,
+				C12BE49B6FDB733D3E76FEBB /* ContentView.swift in Sources */,
+				198B565A4354C62C02083FC9 /* FocusModels.swift in Sources */,
+				4C66CA548FADCF0B24BC71C4 /* FocusStore.swift in Sources */,
+				62E88C7D7C6B0EFA4C0593FB /* FocusTimerNotifications.swift in Sources */,
+				9593BF82A348EEF683EC889A /* LofiApp.swift in Sources */,
+				F6DFFF9E04AAE67C4565B620 /* MusicSpectrum.swift in Sources */,
+				A850F313280562E5C2C7A63B /* NowPlayingPanel.swift in Sources */,
+				12DD4DCF48EABD5563AC0BC8 /* SceneViewport.swift in Sources */,
+				67E47B4FC33861D016762B9B /* SettingsPage.swift in Sources */,
+				915492771A223EC5DB6F4F5B /* SoundAndSessionSheets.swift in Sources */,
+				7C43967A12099DEE576E62B6 /* SoundscapePlayer.swift in Sources */,
+				D702146D5145B1DC18D39974 /* StartModeControl.swift in Sources */,
+				1FF023E37E9E936FA95444BB /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C08DC44C00C36952072620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6312A29C32B3EC88264E6C /* EmberWorkshopTests.swift in Sources */,
+				1822C35BD0AB01220113F76B /* ShellHarborTests.swift in Sources */,
+				C1FBA7B78278AB5D5E3D4155 /* StartModeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830FCA1304C07E07453A9FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA55022CD2D66C405BE53A3 /* Lofi */;
+			targetProxy = 09A352067312278434E9D07C /* PBXContainerItemProxy */;
+		};
+		D6294CAEDA4A12F21058105C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA55022CD2D66C405BE53A3 /* Lofi */;
+			targetProxy = E4DB2315D24BE6822B9CFC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		158273CA1A432957BBF0FC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.LofiTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofi.app/Lofi";
+			};
+			name = Release;
+		};
+		1FFEE69E0275783A415446A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lofi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lofi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.lofi;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		347518A52A03C45DE65B4884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		60876C3DEB6F37BF8A430DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = "debug-collection-*";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lofi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lofi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.lofi;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		828E62FC153CBD8FDD08B22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.LofiUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofi;
+			};
+			name = Release;
+		};
+		A43739FEA6ACE04ED357679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.LofiUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofi;
+			};
+			name = Debug;
+		};
+		C3F470667118E446C6C6C641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7DD33404FC8A32C0F016F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashinokuchi.LofiTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofi.app/Lofi";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BC88F68EEF67CD0BDAAA894 /* Build configuration list for PBXNativeTarget "LofiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43739FEA6ACE04ED357679F /* Debug */,
+				828E62FC153CBD8FDD08B22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5535D5B1C25C120C12F4B9E0 /* Build configuration list for PBXNativeTarget "LofiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DD33404FC8A32C0F016F6E /* Debug */,
+				158273CA1A432957BBF0FC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84E93941CE756A4DC01D5674 /* Build configuration list for PBXProject "Lofi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347518A52A03C45DE65B4884 /* Debug */,
+				C3F470667118E446C6C6C641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B346333D18D304AD83B704 /* Build configuration list for PBXNativeTarget "Lofi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFEE69E0275783A415446A4 /* Debug */,
+				60876C3DEB6F37BF8A430DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7980A253D2B5FEC5B3DD50 /* Project object */;
+}

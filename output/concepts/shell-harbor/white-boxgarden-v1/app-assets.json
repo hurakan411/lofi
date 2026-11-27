@@ -1,0 +1,50 @@
+{
+  "worldID": "shell-harbor",
+  "title": "貝殻の小さな海",
+  "story": null,
+  "width": 642,
+  "height": 882,
+  "fps": 25,
+  "ranks": [
+    {
+      "rank": 1,
+      "source": "output/concepts/shell-harbor/white-boxgarden-v1/rank-1-animation-v2.gif",
+      "resource": "Lofi/Resources/Scenes/shell-harbor-rank-1.gif",
+      "seconds": 12,
+      "sha256": "34813588e4fa00f952b53caebe91ccc175e7af78597f50a9249044f9b10e17be",
+      "bytes": 2077766
+    },
+    {
+      "rank": 2,
+      "source": "output/concepts/shell-harbor/white-boxgarden-v1/rank-2-animation-v2.gif",
+      "resource": "Lofi/Resources/Scenes/shell-harbor-rank-2.gif",
+      "seconds": 16,
+      "sha256": "9a1b882e0f7fe6c1c28ff61634a67e9a7dee48579cd1abe12f80d13e61718da1",
+      "bytes": 5528456
+    },
+    {
+      "rank": 3,
+      "source": "output/concepts/shell-harbor/white-boxgarden-v1/rank-3-animation-v3-life.gif",
+      "resource": "Lofi/Resources/Scenes/shell-harbor-rank-3.gif",
+      "seconds": 16,
+      "sha256": "43ca833dbaa8dbc5dc1bf84e8a81d637fe0722f9eb074c14d7fd2d121260c0ef",
+      "bytes": 7030768
+    },
+    {
+      "rank": 4,
+      "source": "output/concepts/shell-harbor/white-boxgarden-v1/rank-4-animation-v3-flow.gif",
+      "resource": "Lofi/Resources/Scenes/shell-harbor-rank-4.gif",
+      "seconds": 16,
+      "sha256": "9d7fa2a085dd97a6485323f6c97b7b315bf83e2348b93c052a26cb26220e25f4",
+      "bytes": 7426045
+    },
+    {
+      "rank": 5,
+      "source": "output/concepts/shell-harbor/white-boxgarden-v1/rank-5-animation-v4-waves-wind.gif",
+      "resource": "Lofi/Resources/Scenes/shell-harbor-rank-5.gif",
+      "seconds": 24,
+      "sha256": "ca8df717a144bdd54cb980b8636d8734776927f422047eca90df0bdf4975c528",
+      "bytes": 13247554
+    }
+  ]
+}

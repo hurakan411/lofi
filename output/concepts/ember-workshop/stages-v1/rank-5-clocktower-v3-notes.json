@@ -1,0 +1,12 @@
+{
+  "output": "rank-5-clocktower-animation-v3.gif",
+  "durationSeconds": 24,
+  "frames": 600,
+  "fps": 25,
+  "minuteHand": "one step every 0.5s, 48 steps per loop",
+  "pendulum": "4-second full cycle, unchanged swing amplitude",
+  "gears": "lower gear enlarged, upper gear resized, all gears advance 4 teeth/second; opposite rotation and contact phases aligned",
+  "windowFlicker": "left at 4s and right at 14s, three brief dimming pulses each",
+  "audio": false,
+  "checks": "decoded GIF frame count checked; stepped-hand hold/advance and full-loop angle checked; gear tooth rates matched"
+}

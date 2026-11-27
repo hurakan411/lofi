@@ -1,0 +1,5 @@
+Built-in image_gen; precise-object-edit.
+
+Use case: precise-object-edit. Edit target: the provided portrait pixel-art rooftop illustration. Remove ONLY the white coffee mug with coffee near the right side of the keyboard and left of the amber lamp (approximately x=500..556,y=1405..1468 in the 875x1798 original). Remove its handle and shadow too, reconstructing the warm lit wooden tabletop planks naturally. Do not replace it with anything. Keep absolutely everything else unchanged: composition, exact camera, portrait aspect, silver-haired adult woman typing, keyboard, cyan holographic display, lamp and lamp glow, wooden bench, blanket, plants, railing, nearly-black empty upper background. Preserve the existing pixel-art texture and crispness. No new objects, no extra coffee, no text. Output the same scene with just this single mug removed.
+
+Only the small tabletop area surrounding the mug is used from the generated edit; all other original pixels are preserved before animation compositing.

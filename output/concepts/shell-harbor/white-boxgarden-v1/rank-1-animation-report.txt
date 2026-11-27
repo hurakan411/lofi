@@ -1,0 +1,10 @@
+White platform rank 1: 642x882, 300 frames, 25fps, 12.0s infinite loop.
+Output: rank-1-animation.gif; 979695 bytes.
+Source: rank-1.png.
+Contained water surface, continuous flow and ripples; no sky/clouds. White disk and background remain static.
+Water patch bounds: 238,558 to 500,684. Outer pond shoreline remains fixed inside this rank's loop.
+Changed water pixels: 15309.
+Changed pixels over loop: 15309; outside-motion changes: 0.
+Loop-seam mean difference: 0.160154885582268; largest adjacent-frame mean difference: 0.16590321647056475.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

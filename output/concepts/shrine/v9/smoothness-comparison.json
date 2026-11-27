@@ -1,0 +1,42 @@
+{
+  "v8": {
+    "thought": {
+      "maximumFrameChange": 14.443606701940034,
+      "meanFrameChange": 1.2275535035951703,
+      "framesWithVisibleChange": 59,
+      "frameCount": 104
+    },
+    "fall_asleep": {
+      "maximumFrameChange": 20.687720458553795,
+      "meanFrameChange": 1.638627400548697,
+      "framesWithVisibleChange": 10,
+      "frameCount": 36
+    },
+    "wake": {
+      "maximumFrameChange": 19.812962962962963,
+      "meanFrameChange": 1.3588661081716638,
+      "framesWithVisibleChange": 42,
+      "frameCount": 48
+    }
+  },
+  "v9": {
+    "thought": {
+      "maximumFrameChange": 4.088359788359788,
+      "meanFrameChange": 1.2458108635191967,
+      "framesWithVisibleChange": 104,
+      "frameCount": 104
+    },
+    "fall_asleep": {
+      "maximumFrameChange": 7.22173721340388,
+      "meanFrameChange": 3.734887566137566,
+      "framesWithVisibleChange": 36,
+      "frameCount": 36
+    },
+    "wake": {
+      "maximumFrameChange": 6.472045855379188,
+      "meanFrameChange": 2.84005410420341,
+      "framesWithVisibleChange": 48,
+      "frameCount": 48
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "file": "rank-3-preview-small-v4.gif",
+  "frames": 120,
+  "durationMilliseconds": 12000,
+  "dimensions": [
+    360,
+    780
+  ],
+  "pavingLightAtLastFrameMatchesFirst": true,
+  "loop": "infinite",
+  "bytes": 1235073
+}

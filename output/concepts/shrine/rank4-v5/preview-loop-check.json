@@ -1,0 +1,31 @@
+{
+  "file": "rank-4-preview-small-v5.gif",
+  "bytes": 3024837,
+  "frames": 120,
+  "durationSeconds": 12,
+  "loop": "infinite",
+  "sunlightFinalPlacementMatchesStartExactly": true,
+  "windAndAirborneLeavesIncluded": true,
+  "regionSeamChecks": {
+    "maples_high": {
+      "seamMeanDifference": 2.940383099957568,
+      "maxAdjacentMeanDifference": 5.237649269564163
+    },
+    "maples_low": {
+      "seamMeanDifference": 2.46150548696845,
+      "maxAdjacentMeanDifference": 5.230744170096021
+    },
+    "bells_and_paper": {
+      "seamMeanDifference": 0.7194528875379939,
+      "maxAdjacentMeanDifference": 1.1450354609929079
+    },
+    "foreground": {
+      "seamMeanDifference": 0.5494367283950617,
+      "maxAdjacentMeanDifference": 1.2395524691358026
+    },
+    "full": {
+      "seamMeanDifference": 0.45314221272554606,
+      "maxAdjacentMeanDifference": 0.7186407882241216
+    }
+  }
+}

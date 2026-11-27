@@ -1,0 +1,10 @@
+Rank2 shell: 642x882, 300 frames, 25fps, 12.0s infinite loop.
+Output: rank-2-growing-sea-animation-v1.gif; 7469576 bytes.
+Source: rank-2-growing-pond-v2.png.
+Clouds drift with the rank1 timing. Two inner trickles and a broad front spill feed the growing outer pond.
+Water patch bounds: 0,405 to 641,776. Outer pond shoreline remains fixed inside this rank's loop.
+Changed cloud pixels: 104610; changed water pixels: 98255.
+Changed pixels over loop: 202865; outside-motion changes: 0.
+Loop-seam mean difference: 0.11424976378247406; largest adjacent-frame mean difference: 0.11460459124010526.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

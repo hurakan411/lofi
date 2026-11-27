@@ -1,0 +1,63 @@
+{
+  "environmentLoopSeconds": 12,
+  "loopChecks": {
+    "hanging": {
+      "meanBoundaryDelta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motionDetected": true
+    },
+    "maples": {
+      "meanBoundaryDelta": [
+        2.1794871794871795e-05,
+        3.846153846153846e-06,
+        2.564102564102564e-06,
+        3.076923076923077e-05
+      ],
+      "motionDetected": true
+    },
+    "canopy": {
+      "meanBoundaryDelta": [
+        8.974358974358974e-06,
+        1.0256410256410256e-05,
+        2.564102564102564e-06,
+        1.4102564102564102e-05
+      ],
+      "motionDetected": true
+    },
+    "airborne": {
+      "meanBoundaryDelta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motionDetected": true
+    }
+  },
+  "newPaperConnectedFractions": {
+    "left_tree_paper_left": 1.0,
+    "left_tree_paper_right": 1.0,
+    "right_tree_paper_left": 1.0,
+    "right_tree_paper_middle": 1.0,
+    "right_tree_paper_right": 1.0,
+    "distant_paper_left": 0.8857142857142857,
+    "distant_paper_right": 1.0
+  },
+  "newPaperMotionFixtureHashes": {
+    "left_tree_paper_left": 4,
+    "left_tree_paper_right": 5,
+    "right_tree_paper_left": 4,
+    "right_tree_paper_middle": 5,
+    "right_tree_paper_right": 4,
+    "distant_paper_left": 4,
+    "distant_paper_right": 4
+  },
+  "rank4RedMaplesAndLeafFlightPixelsPreserved": true,
+  "rank4PrimaryOrnamentPixelsPreserved": true,
+  "girlAndForegroundPixelsPreserved": true,
+  "all40LandingTrajectoriesPreserved": true
+}

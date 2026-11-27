@@ -1,0 +1,10 @@
+White platform rank 3: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-3-animation-v1.gif; 7427733 bytes.
+Source: rank-3.png.
+Shell has become a terraced green hill. Four continuous cascades, water reflections/ripples, eight localized wind patches with independently phased trees and plants, three fish jumps at 3.5, 4.12 and 10.3 seconds with splashes. White disk, rock and background remain static.
+Water patch bounds: 117,252 to 561,696. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind regions: 61954.
+Changed pixels over loop: 61954; outside-motion changes: 0.
+Loop-seam mean difference: 0.2535235450069436; largest adjacent-frame mean difference: 0.2737364810840382.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

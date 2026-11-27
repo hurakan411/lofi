@@ -1,0 +1,8 @@
+Rank 2 v4: 600x1300, 1200 frames at 20 fps, 60.0s infinite GIF.
+GIF bytes: 8855909. Loop boundary mean delta 0.08422640657017925, max adjacent 1.9604143472578537.
+Thinking repeats every 15s (5.25,20.25,35.25,50.25): raises arms, clasps hands behind head and looks diagonally upwards, then returns hands to desk.
+Departure repeats every 30s (10,40): stands, walks to door, opens sliding shoji, enters. Fully inside at 12.3,42.3; emerges at 17.3,47.3, exactly five seconds later. Returns to seat by 19.3,49.3 and resumes work.
+Tool handling: put brush down, reach seal on bare wooden desk left of ledger, lift, press ledger, return seal, pick brush back up. Background tools removed only while held; no floating seal on paper.
+Noren: three complete solid textured quads, top edge fixed, independent gentle breeze; reconstructed background behind entire band. No torn/missing fabric caused by old silhouette masks.
+Character: drawn transparent foreground cels, fixed background; no warping hands or architecture. Correct front-rail and door-jamb occlusion. Warm lamp modulation and inherited 12s water/leaf animation.
+Art: built-in imagegen; prompts under v4/prompts.json, secondary-prompts.json and no-tools-prompt.txt. Rank 1 unchanged. Fixed camera and rank 2 reveal, no upper scenery.

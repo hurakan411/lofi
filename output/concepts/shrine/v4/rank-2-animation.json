@@ -1,0 +1,151 @@
+{
+  "rank": 2,
+  "worldStory": "もうひとつだけ",
+  "chapter": "小さな申請",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "inheritedAnimation": "rank-1-water.gif",
+  "basePlate": "rank-2-base.png",
+  "basePrompt": "rank-2-base-prompt.txt",
+  "posePrompts": "v4/prompts.json",
+  "baseAndPoseTool": "built-in image_gen",
+  "posePlates": [
+    "v4/clerk-poses.png",
+    "v4/clerk-tools.png"
+  ],
+  "cleanPlate": "v4/office-open.png",
+  "cleanPlatePrompt": "v4/secondary-prompts.json",
+  "norenCleanPlate": "v4/office-open.png",
+  "norenCleanPlatePrompt": "v4/secondary-prompts.json",
+  "animation": "rank-2-office-v4.gif",
+  "previousAnimation": "rank-2-office-v3.gif",
+  "renderer": "scripts/animate_shrine_rank2_v4.swift",
+  "width": 600,
+  "height": 1300,
+  "durationSeconds": 60,
+  "framesPerSecond": 20,
+  "frameCount": 1200,
+  "loop": "infinite",
+  "camera": "fixed; same framing as ranks one and five",
+  "newlyRevealed": [
+    "fox-masked clerk",
+    "office desk",
+    "ledger and application forms",
+    "stamp and ink pad",
+    "work lantern",
+    "small supporting wall and veranda"
+  ],
+  "stillHidden": [
+    "basin rim and wall",
+    "bamboo spout",
+    "torii",
+    "shrines",
+    "plants",
+    "path",
+    "upper architecture"
+  ],
+  "motion": [
+    "inherited 12-second water and drifting-leaf loop",
+    "put brush down, pick up seal, stamp ledger, return seal to holder, pick brush up",
+    "every 15 seconds raise arms, clasp hands behind head and look diagonally upwards thoughtfully",
+    "every 30 seconds stand up, open shoji under noren and enter room, emerge after 5 seconds, return to seat and resume work",
+    "three intact solid noren panels sway with separate wind phases",
+    "gentle bounded lantern light"
+  ],
+  "correction": "Seal rests in its holder on bare wooden desktop to the left of the ledger. Whole cloth quads replace torn old silhouette masks. Drawn full-body cels move over fixed furniture; foreground rail and door jamb occlude correctly. No background or hand-area warping.",
+  "stampSequenceSeconds": {
+    "period": 30,
+    "putBrushDown": 23.3,
+    "graspSeal": 23.95,
+    "lift": 24.5,
+    "press": 25.1,
+    "returnSeal": 26,
+    "releaseSeal": 26.6,
+    "pickBrushUp": 27.15,
+    "writingAgain": 27.9
+  },
+  "toolTimeline": "rank-2-timeline-v4.json",
+  "verification": {
+    "file": "rank-2-office-v4.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 1200,
+    "durationMilliseconds": 60000,
+    "loop": "infinite",
+    "bytes": 8855909,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1114,
+      "noren": 416,
+      "hidden_upper_world": 1,
+      "fixed_wall": 1,
+      "front_rail": 1
+    },
+    "waterRepeatsEvery12Seconds": true,
+    "thinkingIntervalSeconds": 15,
+    "departureIntervalSeconds": 30,
+    "insideRoomSeconds": 5,
+    "insideRoomFramesPerVisit": 100,
+    "fullyEmptyOfficeVerified": true,
+    "fixedRailWallAndUnrevealedWorld": true,
+    "toolOrderVerified": true
+  },
+  "verificationReport": "rank-2-verification-v4.json",
+  "nextRank": "Reveal the basin surround and nearby plants while inheriting the water and office animations. Keep the large torii and upper shrine layers hidden.",
+  "scenePlate": "v4/office-clean.png",
+  "scenePlatePlacement": {
+    "sourceCrop": [
+      555,
+      1210,
+      297,
+      450
+    ],
+    "originalCanvas": [
+      852,
+      1846
+    ]
+  },
+  "heldToolCleanPlate": "v4/office-no-tools.png",
+  "additionalPrompts": [
+    "v4/secondary-prompts.json",
+    "v4/no-tools-prompt.txt"
+  ],
+  "thinking": {
+    "intervalSeconds": 15,
+    "raiseArmsAt": [
+      5.25,
+      20.25,
+      35.25,
+      50.25
+    ],
+    "lookUpAndThinkAt": [
+      5.6,
+      20.6,
+      35.6,
+      50.6
+    ]
+  },
+  "visit": {
+    "intervalSeconds": 30,
+    "standUpAt": [
+      10,
+      40
+    ],
+    "fullyInsideAt": [
+      12.3,
+      42.3
+    ],
+    "emergeAt": [
+      17.3,
+      47.3
+    ],
+    "insideDurationSeconds": 5,
+    "seatedAgainAt": [
+      19.3,
+      49.3
+    ]
+  },
+  "preview": "rank-2-first-frame-v4.png",
+  "motionCheck": "rank-2-motion-check-v4.png"
+}

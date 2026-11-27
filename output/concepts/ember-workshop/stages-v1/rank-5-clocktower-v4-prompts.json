@@ -1,0 +1,20 @@
+{
+  "imageTool": "built-in image_gen",
+  "stylePrompt": "Edit IMAGE 2, the clocktower miniature. IMAGE 1 is the PRIMARY visual STYLE reference only. STRICTLY keep IMAGE 2's exact 1024x1536 canvas, camera, black background, every object silhouette, size, geometry and POSITION unchanged, because this illustration is already rigged for animation. Do not shift or redesign the clock face, clock hands, three exposed gears, pendulum, bell, furnace or machine. Change ONLY rendering style, pixel texture and lighting/color. Match IMAGE 1's refined painterly pixel-art game background: small irregular pixel clusters, softer broken edges, deep desaturated indigo/navy/violet shadows, rich midnight blue ambient light, restrained soft amber practical lights, subtle warm light spilling and gently blooming in localized areas. Current clocktower is too evenly orange, too crisp/beveled and like a tidy 3D dollhouse. Repaint into the reference's moody atmospheric lofi artwork, with matte stone and wood, less uniformly outlined details and more quiet tonal depth. Preserve warm golden clock face and bronze mechanism but cool all unlit surfaces significantly, gently soften bright bevels, no plastic rendering. Do not merely put a color filter on it; redraw surface marks as the reference's fine pixel clusters while preserving geometry exactly. Keep pure black surrounding void, no skyline, no character, no neon signs, no UI, no screenshot phone status bar. Make the reference style unmistakable while retaining all clocktower content and coordinates.",
+  "cleanplatePrompt": "Edit IMAGE 1, the newly repainted blue-shadow clocktower, into an exact animation clean plate. IMAGE 2 shows precisely which parts to REMOVE, use it ONLY as a removal/layout guide, do NOT copy its warmer colors. Keep IMAGE 1's exact pixel texture, cool navy/violet surfaces, warm localized lights and 1024x1536 geometry. Remove the same moving elements as absent in IMAGE 2: entire long pendulum rod, decorative collars, round bob and bottom finial; all THREE middle exposed gears (leave fixed axles, belts, timber); top brass bell (leave suspension); small ground-level hammer head/lower rod; both clock hands and center cap. Fill with continuing background. Everything remaining keeps exactly IMAGE 1's color and position. No hands on dial, no ghost brass outlines, no gear remnants, no pendulum remnants. Pure black background, same canvas.",
+  "renderer": "scripts/animate_ember_clocktower_lofi.swift",
+  "output": "rank-5-clocktower-animation-v4-lofi.gif",
+  "minuteHand": {
+    "previousTickSeconds": 0.5,
+    "tickSeconds": 1.5,
+    "stepsPerTurn": 48,
+    "turnSeconds": 72
+  },
+  "pendulumPeriodSeconds": 4,
+  "otherMotion": "same periods as v3",
+  "width": 512,
+  "height": 768,
+  "fps": 20,
+  "durationSeconds": 72,
+  "audio": false
+}

@@ -1,0 +1,72 @@
+{
+  "frames": 240,
+  "unique_frames": 240,
+  "duration_ms": 12000,
+  "region_unique_frames": {
+    "water": 240,
+    "hand": 210,
+    "noren": 240,
+    "noren_mount": 1,
+    "wall_below_noren": 1,
+    "paper_edge": 1,
+    "desk_edge": 1
+  },
+  "sequence": [
+    {
+      "time": 0,
+      "action": "writing"
+    },
+    {
+      "time": 5.4,
+      "action": "put_brush_down"
+    },
+    {
+      "time": 6,
+      "action": "release_brush"
+    },
+    {
+      "time": 6.45,
+      "action": "reach_and_grasp_seal"
+    },
+    {
+      "time": 6.8,
+      "action": "lift_seal"
+    },
+    {
+      "time": 7.25,
+      "action": "position_seal"
+    },
+    {
+      "time": 7.65,
+      "action": "press_seal"
+    },
+    {
+      "time": 7.9,
+      "action": "seal_contact"
+    },
+    {
+      "time": 8.15,
+      "action": "lift_after_sealing"
+    },
+    {
+      "time": 8.5,
+      "action": "put_seal_back"
+    },
+    {
+      "time": 9,
+      "action": "release_seal_reach_brush"
+    },
+    {
+      "time": 9.6,
+      "action": "grasp_brush"
+    },
+    {
+      "time": 9.9,
+      "action": "lift_brush"
+    },
+    {
+      "time": 10.6,
+      "action": "writing"
+    }
+  ]
+}

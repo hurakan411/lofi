@@ -1,0 +1,58 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "request": "Make ranks 4 and 5 richer while retaining the snowy finite diorama and requested lofi pixel style",
+  "style_reference": "/tmp/codex-remote-attachments/01a1f8a5-2f4a-76a0-b6b5-727886961329/9FA8770D-C90B-4788-972E-4CDD34EBBE71/1-写真1.jpg",
+  "inherited_ranks": [
+    {
+      "rank": 1,
+      "file": "rank-1.png",
+      "copied_from": "../stages-v3-pixel/rank-1.png",
+      "prompts": "../stages-v3-pixel/prompts.json"
+    },
+    {
+      "rank": 2,
+      "file": "rank-2.png",
+      "copied_from": "../stages-v3-pixel/rank-2.png",
+      "prompts": "../stages-v3-pixel/prompts.json"
+    },
+    {
+      "rank": 3,
+      "file": "rank-3.png",
+      "copied_from": "../stages-v3-pixel/rank-3.png",
+      "prompts": "../stages-v3-pixel/prompts.json"
+    }
+  ],
+  "edits": [
+    {
+      "rank": 4,
+      "file": "rank-4.png",
+      "original": "/Users/hashinokuchishougo/.codex/generated_images/01a1f8a5-2f4a-76a0-b6b5-727886961329/exec-b7f95d77-6e20-46bd-9a35-2ee08697e785.png",
+      "prompt": "Use case: precise-object-edit. Make a richer RANK 4 winter diorama.\nREFERENCE ROLES: Image 1 is the existing rank-4 EDIT TARGET. Image 2 is the NEW rich RANK-5 MASTER: it shows where the world will eventually grow, use its snowy terrain, richer miniature detail and fine pixel-art texture as guidance. Image 3 is the user's lofi rooftop illustration, supporting PAINTING STYLE reference ONLY, not the city or characters.\nKeep portrait framing, white background, full low round white ceramic plinth in exactly the same position and perspective, fixed elevated front-left view, winter daytime palette. The subject is a finite snowy nature world, NOT a town. Rich matte hand-painted pixel clusters, nuanced blue/lavender snow shadows, muted teal ice and water, restrained warm peach daylight. Do not make a smooth 3D render, coarse blocky voxel sculpture, childish storybook or cartoon.\n\nRANK-4 GROWTH AND RICHNESS:\nKeep the recognizable existing broad front grotto with TWO natural staggered ice shelves, thin pillars, one small deeper blue recess, hanging icicles, a quiet sheltered pool and THREE detached thin floating ice plates, two almost touching. This is the rank where ice floes introduce a delicate clinking sound.\nReplace the mostly empty upper snow surface with a more developed, coherent winter landscape: a small grove of FIVE to SEVEN snow-laden conifers of varied height, some in a clustered group and some saplings, shaped into a natural low snow ridge and a small sheltered valley. Keep readable snow clearings between them. Put believable roots/trunks in snowy rock.\nAdd a small shallow frozen hollow with visible patterned translucent ice on the upper ground, not yet the full rank-5 tarn. A thin partly frozen brook emerges from a snowbank, makes a few shallow icy steps between the trees, then descends into the roof opening of the front grotto. Keep the flow modest and narrow, not a huge waterfall.\nIntegrate subtle winter vegetation: TWO small muted-red berry bushes half buried in snow, one bare frosted twig at the front edge, a few short dry golden grass tufts, and partly exposed slate rock layers below some snow cornices. Natural powder wind grooves and a few isolated tracks create varied surface detail.\nIncrease the landform complexity with small snow terraces and two low uneven ridge humps, yet keep the top silhouette visibly LOWER and SIMPLER than the final-rank master. The grotto entrance should stay clear and dominant, not hidden behind a wall of trees. Preserve one gentle sunbeam from the small roof opening and small water reflections.\n\nIMPORTANT RANK DIFFERENCES: do NOT copy the full finished rank-5 scene. There are NO rabbits, birds or other animals in rank 4; no rock arch on the summit; no two full conifer groves; no broad tarn, elaborate winding tracks or numerous connected back grotto chambers. Those appear at rank 5. Rank 4 should nevertheless feel substantially richer and more detailed than the old image 1, with genuinely developed exterior scenery as well as the cave.\nNo original sugar-cube silhouette or squared granular cap; snow terrain is dominant. No houses, human construction, artificial roads/bridges, lamps, Christmas decorations, humans, UI, lettering, labels, border or watermark. All scenery and water remains neatly contained on the white circular plinth.",
+      "references": [
+        "../stages-v3-pixel/rank-4.png",
+        "rank-5.png",
+        "user style reference"
+      ],
+      "reference_roles": [
+        "edit target",
+        "richer fully grown world reference; exclude later life and summit arch",
+        "pixel illustration style only"
+      ]
+    },
+    {
+      "rank": 5,
+      "file": "rank-5.png",
+      "original": "/Users/hashinokuchishougo/.codex/generated_images/01a1f8a5-2f4a-76a0-b6b5-727886961329/exec-ba27b8eb-30e1-4872-81de-ce6f160d25ac.png",
+      "prompt": "Use case: precise-object-edit. Edit target = Image 1, the CURRENT RANK 5 snow-and-ice diorama. Image 2 = user's rooftop artwork, PRIMARY PIXEL-PAINTING STYLE REFERENCE ONLY.\nUSER REQUEST: rank 5 currently feels sparse. Make the final winter world substantially RICHER in varied small scenery and places to discover. Increase the richness of the ACTUAL OUTDOOR LANDSCAPE, not just the number of icicles in one hollow. A satisfying fully grown snow micro-world, with the original sugar cube completely transformed.\n\nLOCK: keep the portrait aspect, white empty backdrop, full low circular white display plinth, plinth size/location, fixed elevated front-left three-quarter camera, same main front grotto and sheltered blue pool, snow-covered uneven ridge. Keep winter DAYLIGHT and restrained cool snow / blue shadow / soft peach sunlight color. Do not turn it into a town. Preserve the fine matte lofi pixel-art language from the reference, hand-painted square clusters, crisp stepped contours, nuanced texture; no glossy 3D, childish storybook, heavy outline, UI or letters.\n\nDEVELOP THE TERRAIN organically into a complex, coherent WINTER HABITAT:\n- Re-form the formerly bare broad upper snow surface into several overlapping slopes and small snow valleys, an upper shallow frozen tarn, curved ice channels and a natural snow-covered rock arch. All are integrated into the mountain mass rather than arranged props.\n- Grow TWO small groves of snow-burdened conifers on different slopes and elevations, roughly 12 to 16 trees total with varied heights. Include a mix of taller dark spruce shapes, shorter saplings, and one or two bare frost-coated branches. Snow sits heavily on each tier of foliage; trunks emerge credibly from snowy rocky ground. Do not cover the whole diorama in one uniform forest.\n- Trace a narrow partially frozen brook from the upper tarn, winding between trees and disappearing into a real opening leading down to the existing grotto. Small clear ice lips and a delicate frozen cascade make its route readable. Water is contained within the diorama, never around the plinth.\n- Add tiny localized winter vegetation: a few snow-covered low bushes, sparse muted-red winter berries, dry golden reed tufts at the tarn edge, and exposed slate rock faces interrupting the white surfaces.\n- A winding line of tiny tracks links the grove, snow pass and sheltered entrance. Put TWO VERY SMALL snow hares near a low bush on an upper bank. These are subtle landscape residents, not cute foreground mascots: whole body each roughly 1.5% of image width, simple pixel silhouettes, minimal face detail.\n- Keep THREE TINY winter songbirds, now distributed across different snow ledges at the grotto entrance and a frosted twig. Smaller than in the target, each roughly 2% of image width. Leave visible perch space for future hopping/fluttering animation.\n- Enrich the front grotto with coherent depth: smaller secondary blue recesses, naturally tiered ice shelves, thin icicles of varied lengths, and one visible narrow inflow into the calm pool. Preserve three floating thin ice plates with two edges nearly touching. Broken horizontal reflected light in the water and subtle pale amber bounce on the ice.\n- A LITTLE fine drifting snow between the trees and in the roof sunbeam, no blizzard.\nCOMPOSITION: dense pockets of carefully resolved details balanced by quiet powder-snow clearings and open water. There should be many different things to look at, with foreground/midground/background depth within this personal finite world. The main grotto remains legible; do not block it with trees. The upper forest and tarn are clearly visible from the fixed camera. Keep every element within the full circular base. No square sugar cap, no sugary pebble crust, no cube silhouette. No buildings, houses, roads, artificial bridges, humans, Christmas decorations, lamps, furniture, giant crystals, title or watermark.",
+      "references": [
+        "../stages-v3-pixel/rank-5.png",
+        "user style reference"
+      ],
+      "reference_roles": [
+        "edit target",
+        "pixel illustration style only"
+      ]
+    }
+  ]
+}

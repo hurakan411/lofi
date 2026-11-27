@@ -1,0 +1,1 @@
+24 thought cels and 24 nap cels, built-in imagegen; lower-body locked; smooth intermediate pose rendering.

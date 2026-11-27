@@ -1,0 +1,259 @@
+{
+  "rank": 3,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "animation": "rank-3-foreground-v3.gif",
+  "inheritedAnimation": "rank-2-office-v10.gif",
+  "inheritedManifest": "rank-2-animation.json",
+  "renderer": "scripts/animate_shrine_rank3_v3.swift",
+  "layoutPreparation": "scripts/prepare_shrine_rank3_layout.swift",
+  "basePlate": "rank3-v1/base-framed.png",
+  "plantSprites": "rank3-v1/plants.png",
+  "artTool": "built-in imagegen",
+  "prompts": "rank3-v3/prompts.json",
+  "width": 600,
+  "height": 1300,
+  "framesPerSecond": 20,
+  "durationSeconds": 120,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; inherited water and office remain aligned",
+  "newlyRevealed": [
+    "mossy stone basin rim and front wall",
+    "bamboo water spout",
+    "nearby low mossy stonework",
+    "shallow foreground steps and stone paving",
+    "three foreground plant clumps",
+    "small white fox seated on the path, looking uphill",
+    "small golden-yellow fox lying farther forward on the path"
+  ],
+  "stillHidden": [
+    "large near torii and sacred rope",
+    "shrine halls",
+    "distant steps and torii",
+    "giant tree trunks",
+    "upper architecture"
+  ],
+  "inheritedMotion": [
+    "upper-left to lower-right connected writing with knees and feet fixed",
+    "independent hair-tip wind",
+    "put brush down, cross arms and think for2.5 seconds, retrieve brush and resume",
+    "40-second nap cadence, face down on desk for10 seconds, corrected compact head",
+    "independent intact noren panels",
+    "gentle local lantern light",
+    "12-second water ripples, flowing stream and drifting maple leaf"
+  ],
+  "newMotion": [
+    "fern left:6-second cycle,6px tip sway with spatial branch phases",
+    "fern center:12-second cycle,7.5px tip sway, independent phase",
+    "right undergrowth:12-second cycle,7px tip sway, independent phase",
+    "white fox seated looking uphill: fixed body,4-second connected tail wag",
+    "golden-yellow fox lying down: fixed body,6-second connected tail wag",
+    "dappled sunlight shifts over paving in12seconds, eases back over9.2-11.4seconds, then holds exact original placement for0.6seconds; stone texture/geometry fixed",
+    "flowing highlights from bamboo mouth"
+  ],
+  "plantPlacement": [
+    {
+      "name": "fern_left",
+      "root": [
+        13,
+        1311
+      ],
+      "height": 92,
+      "tipAmplitudePixels": 6,
+      "periodSeconds": 6,
+      "phaseRadians": 0.4
+    },
+    {
+      "name": "fern_center",
+      "root": [
+        228,
+        1311
+      ],
+      "height": 88,
+      "tipAmplitudePixels": 7.5,
+      "periodSeconds": 12,
+      "phaseRadians": 2.3
+    },
+    {
+      "name": "undergrowth_right",
+      "root": [
+        590,
+        1320
+      ],
+      "height": 110,
+      "tipAmplitudePixels": 7,
+      "periodSeconds": 12,
+      "phaseRadians": 4.7
+    }
+  ],
+  "verification": {
+    "file": "rank-3-foreground-v3.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 2400,
+    "durationMilliseconds": 120000,
+    "loop": "infinite",
+    "bytes": 39944145,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1293,
+      "hair_while_writing": 80,
+      "knees_feet_while_writing": 1,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "fixed_left_wall": 1,
+      "closed_door_edge": 1,
+      "desk_edge": 1,
+      "front_rail": 1,
+      "fern_left": 120,
+      "fern_center": 240,
+      "undergrowth_right": 241,
+      "paving_light": 240,
+      "white_fox_tail": 240,
+      "yellow_fox_tail": 240,
+      "fixed_basin_rim": 1,
+      "fixed_bamboo": 1
+    },
+    "writingDirection": "upper-left to lower-right",
+    "armConnectivityFixtures": [
+      {
+        "time": 0,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6705
+      },
+      {
+        "time": 0.6,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6643
+      },
+      {
+        "time": 1.2,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6577
+      },
+      {
+        "time": 1.8,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6537
+      },
+      {
+        "time": 2.35,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6533
+      },
+      {
+        "time": 2.7,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6635
+      }
+    ],
+    "keyPoseCount": 48,
+    "thoughtKeyPoses": 24,
+    "napKeyPoses": 24,
+    "motionAlignedInbetweens": true,
+    "armsCrossedHoldSeconds": 2.5,
+    "thoughtCueEverySeconds": 15,
+    "sleepOverridesThoughtCue": true,
+    "napIntervalSeconds": 40,
+    "napDurationSeconds": 10,
+    "napFramesPerVisit": 200,
+    "noStandingEntryExitOrStamping": true,
+    "fixedFurnitureAndBackdrop": true,
+    "rank2CorePixelsAndTimelinePreserved": true,
+    "newPlantsMoveIndependently": true,
+    "plantTipAmplitudesPixels": [
+      6,
+      7.5,
+      7
+    ],
+    "twoRestingFoxes": [
+      "ivory white",
+      "golden yellow"
+    ],
+    "foxBodiesFixed": true,
+    "whiteFoxSeatedLookingUphill": true,
+    "whiteFoxMovedForwardPixels": 65,
+    "lightingCycleSeconds": 12,
+    "lightingFinalHoldSeconds": 0.6,
+    "lightAtBoundaryMatchesStartExactly": true,
+    "foxTailsConnectedAndAnimated": true,
+    "dappledSunlightMovesWithoutResamplingStoneTexture": true,
+    "plantPeriodsSeconds": [
+      6,
+      12,
+      12
+    ],
+    "newReveal": [
+      "stone basin and rim",
+      "bamboo spout",
+      "mossy stone and shallow paving",
+      "foreground plants"
+    ],
+    "futureRankSceneryHidden": true
+  },
+  "verificationReport": "rank-3-verification-v3.json",
+  "preview": "rank-3-first-frame-v3.png",
+  "animationReport": "rank-3-animation-report-v3.txt",
+  "nextRank": "Reveal the large near torii and nearby shrine structures while inheriting all current water, clerk and plant motion. Keep upper shrine layers concealed.",
+  "previousAnimation": "rank-3-foreground-v2.gif",
+  "foxSprites": {
+    "whiteSeated": "rank3-v3/white-fox.png",
+    "yellowLying": "rank3-v2/foxes.png",
+    "yellowSheetColumn": 1,
+    "yellowSheetColumns": 2
+  },
+  "foxPlacement": [
+    {
+      "color": "ivory white",
+      "pose": "seated three-quarter back view, looking uphill",
+      "centerX": 307,
+      "baselineY": 1186,
+      "widthPixels": 63,
+      "tailCycleSeconds": 4,
+      "tailAmplitudePixels": 3.8
+    },
+    {
+      "color": "golden yellow",
+      "pose": "lying down",
+      "centerX": 386,
+      "baselineY": 1237,
+      "widthPixels": 86,
+      "tailCycleSeconds": 6,
+      "tailAmplitudePixels": 5.5
+    }
+  ],
+  "dappledSunlight": {
+    "source": "existing warm ground highlights",
+    "illuminationOnly": true,
+    "cycleSeconds": 12,
+    "motionPeriodsSeconds": [
+      12,
+      6,
+      12
+    ],
+    "gainRange": [
+      0.73,
+      1.32
+    ],
+    "stoneGeometryFixed": true,
+    "upperTreeRemainsOffscreen": true,
+    "easeInSeconds": 0.7,
+    "returnStartSeconds": 9.2,
+    "returnEndSeconds": 11.4,
+    "finalOriginalPlacementHoldSeconds": 0.6,
+    "lastFrameMatchesOriginalPlacement": true
+  },
+  "lightweightPreview": {
+    "file": "rank-3-preview-small-v3.gif",
+    "width": 360,
+    "height": 780,
+    "durationSeconds": 12,
+    "framesPerSecond": 10,
+    "bytes": 1129438,
+    "fullCanvas": true,
+    "loopCheck": "rank3-v3/preview-loop-check.json"
+  }
+}

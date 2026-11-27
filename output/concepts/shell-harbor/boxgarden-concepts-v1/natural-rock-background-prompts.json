@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "variants": [
+    {
+      "key": "white",
+      "title": "A・白背景",
+      "prompt": "Use case: precise-object-edit, background-color replacement ONLY.\nEdit attached concept A: natural irregular rocky base, spiral seashell and small puddle.\nLOCK ALL FOREGROUND EXACTLY: same organic chipped rock slab shape and thickness, natural soil/stone top, shell design/orientation/size/position/color/pixel texture, water inside shell, droplet and small outside puddle, lighting, camera framing and portrait dimensions. Do not introduce a manufactured pedestal, ceramic tray, circular plinth or square platform. Do not recolor or relight the shell or rock. Preserve source 2D clustered pixel-painted art and soft stepped contours. No added details, architecture, characters, vegetation, text, UI, border or watermark.\nChange ONLY the empty background outside the rocky silhouette and its soft local shadow. Opaque background, not transparent. Keep all original margins and object scale, no crop or zoom.\nREPLACEMENT BACKGROUND: pure plain WHITE #FFFFFF, no horizon, scene, floor texture, paper tint or gradient in outer field. A minimal very soft neutral-grey contact shadow immediately under the rock may remain so it feels grounded; outside that small shadow background is white. The rocky slab remains the natural dark violet-grey material in input, not a white pedestal. Foreground retains its nocturnal cool colors even on white background."
+    },
+    {
+      "key": "black",
+      "title": "A・黒背景",
+      "prompt": "Use case: precise-object-edit, background-color replacement ONLY.\nEdit attached concept A: natural irregular rocky base, spiral seashell and small puddle.\nLOCK ALL FOREGROUND EXACTLY: same organic chipped rock slab shape and thickness, natural soil/stone top, shell design/orientation/size/position/color/pixel texture, water inside shell, droplet and small outside puddle, lighting, camera framing and portrait dimensions. Do not introduce a manufactured pedestal, ceramic tray, circular plinth or square platform. Do not recolor or relight the shell or rock. Preserve source 2D clustered pixel-painted art and soft stepped contours. No added details, architecture, characters, vegetation, text, UI, border or watermark.\nChange ONLY the empty background outside the rocky silhouette and its soft local shadow. Opaque background, not transparent. Keep all original margins and object scale, no crop or zoom.\nREPLACEMENT BACKGROUND: pure plain BLACK #000000, no horizon, scenery, floor texture, stars, navy vignette or colored gradient in outer field. Existing very local shadow can disappear into black. Preserve the existing rock edge visibility and muted ivory shell colors without adding a bright rim, neon outline or new illumination. The rocky slab remains irregular natural rock, not a black manufactured pedestal."
+    }
+  ]
+}

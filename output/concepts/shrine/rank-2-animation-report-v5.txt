@@ -1,0 +1,6 @@
+Rank 2 v5: 600x1300, 240 frames at 20 fps, 12.0s infinite GIF.
+GIF bytes: 1637997. Loop boundary mean delta 0.111179953853849, max adjacent 0.10430159575326331.
+Continuous writing only: rigid foreground forearm, hand and held brush perform small overlapping strokes. Character remains seated; head, torso, legs and supporting hand stay fixed. No thought pose, departure, door movement, tool swaps or stamping.
+Stamp stays in its bare-wood desk holder. Resting brush is removed because the brush is always held.
+Inherited intact noren breeze, local lantern light and twelve-second water/leaf animation. Fixed camera, fixed desk/page/wall, no background warp. All strokes and wind phases close within the loop.
+Source art reused from v4 built-in imagegen assets; no new image generation or scene redesign.

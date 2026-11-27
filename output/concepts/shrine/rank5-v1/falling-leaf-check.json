@@ -1,0 +1,17 @@
+{
+  "leafCount": 40,
+  "previousCount": 16,
+  "allFlyingLeavesRemainOpaqueAfterBirth": true,
+  "allLeavesReachExplicitSurface": true,
+  "fullyVisibleRestSeconds": 1.5,
+  "fadeOnSurfaceSeconds": 1.3,
+  "fadeOnlyAfterLanding": true,
+  "restingLeafPositionFixedDuringFade": true,
+  "cycleSeconds": 12,
+  "surfaces": [
+    "office_roof",
+    "stone_paving",
+    "stone_steps"
+  ],
+  "inheritedLifecycleMatchesExactly": true
+}

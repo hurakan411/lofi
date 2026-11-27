@@ -1,0 +1,11 @@
+White platform rank 4: 642x882, 400 frames, 25fps, 16.0s infinite loop.
+Output: rank-4-animation-v1.gif; 7457151 bytes.
+Source: rank-4.png.
+First little harbor: stone cottage terrace, short pier and one rowboat. Boat gently bobs/rocks, fabric awning stirs, subtle chimney smoke rises. Four cascades and water ripples; small fish and one larger 38px fish jump. Color-isolated leaves flutter with fixed trunks/branches, five grass/flower patches sway independently.
+All three birds start/finish on grass. Two fly around the island to water perches (pier edge/right shore), drink with tiny ripples, then fly home. Third circles the shell and returns to grass. No off-canvas entries/exits. Water-contact points and flight positions verified.
+Water patch bounds: 117,252 to 561,714. Outer pond shoreline remains fixed inside this rank's loop.
+Changed pixels within authorized water/fish/wind/bird regions: 70776.
+Changed pixels over loop: 70776; outside-motion changes: 0.
+Loop-seam mean difference: 0.13480357381532546; largest adjacent-frame mean difference: 0.20958432291827314.
+Decoded frame count and duration verified; fixed shared palette and transparent delta frames.
+GIF has no audio. Shell, land and camera remain fixed.

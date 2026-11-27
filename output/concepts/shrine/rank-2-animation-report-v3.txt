@@ -1,0 +1,8 @@
+Rank 2: 600 x 1300, 240 frames, 20 fps, 12.0s, infinite loop.
+GIF size: 1703743 bytes. Animation area: 34,819–599,1206.
+Leaf center: 146.0,1162.0; drift ±5.8 px + secondary sway, angular sway ±18.6° maximum.
+Loop boundary mean pixel delta: 0.08306922637912402; maximum adjacent delta: 0.18194388789722293.
+Motion: inherited water/leaf; separate brush, hand and seal foreground layers; writing → put brush down → release → grasp seal → lift → press → return seal → pick brush up → writing. Independently anchored noren panels, hair tips and bounded lantern light.
+Stationary desk, ledger and wall; no wrist-area warp, no background pose blending.
+Plates: rank-1-base.png, rank-2-base.png, rank-2-clean-plate-v2.png, rank-2-stamp-raised.png, rank-2-noren-clean-v3.png.
+Future scenery remains hidden; fixed camera. Water rendering is unchanged from rank one.

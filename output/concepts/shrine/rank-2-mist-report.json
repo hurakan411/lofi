@@ -1,0 +1,15 @@
+{
+  "animation" : "rank-2-office-mist-v11.gif",
+  "bytes" : 18763151,
+  "durationSeconds" : 119.99999999999532,
+  "frames" : 2400,
+  "height" : 1300,
+  "loop" : "infinite",
+  "maxSampledCoreMeanChannelError" : 0.056103025952272186,
+  "mistReference" : "rank4-v6\/mist-background.png",
+  "motionTimingUnchanged" : true,
+  "newSceneryRevealed" : false,
+  "rank" : 2,
+  "source" : "rank-2-office-v10.gif",
+  "width" : 600
+}

@@ -1,0 +1,187 @@
+{
+  "rank": 4,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "animation": "rank-4-shrine-v2.gif",
+  "inheritedAnimation": "rank-3-foreground-v4.gif",
+  "inheritedManifest": "rank-3-animation.json",
+  "renderer": "scripts/animate_shrine_rank4_v2.swift",
+  "width": 600,
+  "height": 1300,
+  "framesPerSecond": 20,
+  "durationSeconds": 120,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; all inherited objects stay registered",
+  "art": "existing approved full-world painting and rank3 sprite/material layers; native Swift layer compositing, no new image generation",
+  "newlyRevealed": [
+    "large near red torii with sacred rope, paper streamers and bell",
+    "stone stairway and landing",
+    "nearest upper-left shrine hall",
+    "stone lanterns on both sides of gate"
+  ],
+  "stillHidden": [
+    "bridge/corridor to the right of upper-left hall",
+    "upper vertically stacked shrine halls",
+    "upper tree canopy",
+    "upper torii and sky"
+  ],
+  "inheritedMotionManifest": "rank-3-animation.json",
+  "inheritedMotion": [
+    "writing, hair, thinking and naps",
+    "three independent noren panels",
+    "water, maple leaf and bamboo stream",
+    "two fox tails",
+    "three independently swaying plants",
+    "12-second dappled sunlight with exact return"
+  ],
+  "newMotion": [
+    "independent gentle 4/6-second light fluctuations in four lanterns, restricted to warm lit glass; architecture fixed"
+  ],
+  "foregroundTransition": "old dark reveal boundary replaced by continuous steps; rank3 bottom y1100..1299 preserved exactly before GIF palette encoding",
+  "preview": "rank-4-first-frame-v2.png",
+  "lightweightPreview": {
+    "file": "rank-4-preview-small-v2.gif",
+    "width": 360,
+    "height": 780,
+    "framesPerSecond": 10,
+    "durationSeconds": 12,
+    "fullCanvas": true,
+    "bytes": 1374731,
+    "loopCheck": "rank4-v2/preview-loop-check.json"
+  },
+  "verificationReport": "rank-4-verification-v2.json",
+  "animationReport": "rank-4-animation-report-v2.txt",
+  "nextRank": "Reveal the right bridge/corridor and the vertically stacked upper shrine layers, inheriting all current motion.",
+  "previousAnimation": "rank-4-shrine-v1.gif",
+  "revealBoundary": {
+    "featherPixels": 100,
+    "method": "smooth inward opacity fade based on perpendicular distance to contour, so both top and side edges soften evenly",
+    "imageTexturePreserved": true,
+    "bridgeRemainsConcealed": true
+  },
+  "verification": {
+    "file": "rank-4-shrine-v2.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 2400,
+    "durationMilliseconds": 120000,
+    "loop": "infinite",
+    "bytes": 47326139,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1293,
+      "hair_while_writing": 80,
+      "knees_feet_while_writing": 1,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "near_torii_fixed": 1,
+      "near_hall_fixed": 1,
+      "near_stone_lantern_left": 124,
+      "near_stone_lantern_right": 82,
+      "near_hall_lantern": 12,
+      "fixed_left_wall": 1,
+      "closed_door_edge": 1,
+      "desk_edge": 1,
+      "front_rail": 1,
+      "fern_left": 120,
+      "fern_center": 240,
+      "undergrowth_right": 240,
+      "paving_light": 240,
+      "white_fox_tail": 240,
+      "yellow_fox_tail": 240,
+      "fixed_basin_rim": 1,
+      "fixed_bamboo": 1
+    },
+    "writingDirection": "upper-left to lower-right",
+    "armConnectivityFixtures": [
+      {
+        "time": 0,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6705
+      },
+      {
+        "time": 0.6,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6643
+      },
+      {
+        "time": 1.2,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6577
+      },
+      {
+        "time": 1.8,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6537
+      },
+      {
+        "time": 2.35,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6533
+      },
+      {
+        "time": 2.7,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6635
+      }
+    ],
+    "keyPoseCount": 48,
+    "thoughtKeyPoses": 24,
+    "napKeyPoses": 24,
+    "motionAlignedInbetweens": true,
+    "armsCrossedHoldSeconds": 2.5,
+    "thoughtCueEverySeconds": 15,
+    "sleepOverridesThoughtCue": true,
+    "napIntervalSeconds": 40,
+    "napDurationSeconds": 10,
+    "napFramesPerVisit": 200,
+    "noStandingEntryExitOrStamping": true,
+    "fixedFurnitureAndBackdrop": true,
+    "rank2CorePixelsAndTimelinePreserved": true,
+    "newPlantsMoveIndependently": true,
+    "plantTipAmplitudesPixels": [
+      6,
+      7.5,
+      7
+    ],
+    "twoRestingFoxes": [
+      "ivory white",
+      "golden yellow"
+    ],
+    "foxBodiesFixed": true,
+    "whiteFoxSeatedLookingUphill": true,
+    "whiteFoxMovedForwardPixels": 65,
+    "lightingCycleSeconds": 12,
+    "lightingFinalHoldSeconds": 0.6,
+    "lightAtBoundaryMatchesStartExactly": true,
+    "foxTailsConnectedAndAnimated": true,
+    "dappledSunlightMovesWithoutResamplingStoneTexture": true,
+    "plantPeriodsSeconds": [
+      6,
+      12,
+      12
+    ],
+    "newReveal": [
+      "large near torii and sacred rope",
+      "continuous stairs behind torii",
+      "nearest upper-left shrine hall",
+      "two stone lanterns"
+    ],
+    "rank3ForegroundPixelsPreserved": true,
+    "rank3MotionInherited": true,
+    "newLanternLightCyclesSeconds": [
+      4,
+      6,
+      6,
+      4
+    ],
+    "newToriiAndArchitectureFixed": true,
+    "futureRankSceneryHidden": true,
+    "rightBridgeConcealed": true,
+    "revealFeatherPixels": 100,
+    "revealFeatherIsotropic": true
+  }
+}

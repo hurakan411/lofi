@@ -1,0 +1,726 @@
+{
+  "rank": 4,
+  "worldStory": "もうひとつだけ",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "animation": "rank-4-shrine-v6.gif",
+  "inheritedAnimation": "rank-3-foreground-v4.gif",
+  "inheritedManifest": "rank-3-animation.json",
+  "renderer": "scripts/animate_shrine_rank4_v6.swift",
+  "width": 600,
+  "height": 1300,
+  "framesPerSecond": 20,
+  "durationSeconds": 120,
+  "frameCount": 2400,
+  "loop": "infinite",
+  "camera": "fixed; all inherited objects stay registered",
+  "art": "approved full-world painting, inherited rank3 sprites, imagegen clean entrance plates and transparent maple-bough/leaf artwork; native Swift compositing and continuous deformation",
+  "newlyRevealed": [
+    "large near red torii with sacred rope, paper streamers and bell",
+    "stone stairway and landing",
+    "nearest upper-left shrine hall",
+    "stone lanterns on both sides of gate",
+    "first bay at bridge entrance, including its initial posts and railing"
+  ],
+  "stillHidden": [
+    "bridge/corridor beyond its entrance",
+    "upper vertically stacked shrine halls",
+    "upper tree canopy",
+    "upper torii and sky"
+  ],
+  "inheritedMotionManifest": "rank-3-animation.json",
+  "inheritedMotion": [
+    "writing, hair, thinking and naps",
+    "three independent noren panels",
+    "water, maple leaf and bamboo stream",
+    "two fox tails",
+    "three independently swaying plants",
+    "12-second dappled sunlight with exact return"
+  ],
+  "newMotion": [
+    "independent gentle 4/6-second light fluctuations in four lanterns, restricted to warm lit glass; architecture fixed",
+    "two source-matched bells rotate about fixed attachments (hall6s, torii4s)",
+    "four connected paper streamers flutter independently with pinned tops (4/6s)",
+    "three added left-side maple boughs bend independently with21/28/30px tip amplitudes (6/12/12s)",
+    "forty loose maple leaves follow staggered12s trajectories to explicit roof/steps/paving contact points; stay fully visible in flight, settle, rest for1.5s and fade in place over1.3s"
+  ],
+  "foregroundTransition": "old dark reveal boundary replaced by continuous steps; rank3 bottom y1100..1299 preserved exactly before GIF palette encoding",
+  "preview": "rank-4-first-frame-v6.png",
+  "lightweightPreview": {
+    "file": "rank-4-preview-small-v6.gif",
+    "width": 360,
+    "height": 780,
+    "framesPerSecond": 10,
+    "durationSeconds": 12,
+    "fullCanvas": true,
+    "bytes": 3075839,
+    "loopCheck": "rank4-v6/preview-loop-check.json"
+  },
+  "verificationReport": "rank-4-verification-v6.json",
+  "animationReport": "rank-4-animation-report-v6.txt",
+  "nextRank": "Reveal the bridge beyond the first bay and vertically stacked upper shrine layers, inheriting all current motion.",
+  "previousAnimation": "rank-4-shrine-v5.gif",
+  "revealBoundary": {
+    "featherPixels": 100,
+    "method": "smooth inward opacity fade based on perpendicular distance to contour, so both top and side edges soften evenly",
+    "imageTexturePreserved": true,
+    "bridgeRemainsConcealed": false,
+    "bridgeEntranceVisible": true,
+    "bridgeBeyondEntranceConcealed": true,
+    "unrevealedBackdrop": "pale green-white daylight mist, static low-contrast field",
+    "revealedForegroundNotRecolored": true
+  },
+  "officeCompositingFix": {
+    "leftBlackExteriorRemoved": true,
+    "background": "continuous rank4 shrine scene visible left of physical front post",
+    "topEdge": "blend over140 native pixels (28.7 canvas pixels) into underlying sloping eaves",
+    "exteriorRailingGaps": "dark backing removed outside the structure only",
+    "girlAndRoomCoreUnchanged": true,
+    "motionTimelineUnchanged": true
+  },
+  "artTool": "built-in imagegen",
+  "prompts": "rank4-v5/prompts.json",
+  "windArtwork": {
+    "cleanEntrances": "rank4-v5/entrances-clean-atlas.png",
+    "mapleSprites": "rank4-v5/maple-sprites.png",
+    "sourceBellAndPaper": "rank-5-redrawn-v16.png",
+    "promptSet": "rank4-v5/prompts.json",
+    "mode": "built-in imagegen",
+    "backgroundsDoNotWarp": true,
+    "fixedSourceGeometry": "clean plates touch only original object silhouettes plus feathered edges"
+  },
+  "windObjects": [
+    {
+      "name": "hall bell",
+      "anchor": [
+        201,
+        552
+      ],
+      "periodSeconds": 6,
+      "angleAmplitudeRadians": 0.11
+    },
+    {
+      "name": "torii bell",
+      "anchor": [
+        237,
+        828
+      ],
+      "periodSeconds": 4,
+      "angleAmplitudeRadians": 0.14
+    },
+    {
+      "name": "hall paper left",
+      "anchor": [
+        170,
+        538
+      ],
+      "periodSeconds": 4,
+      "tipAmplitudePixels": 4.8
+    },
+    {
+      "name": "hall paper right",
+      "anchor": [
+        232,
+        549
+      ],
+      "periodSeconds": 6,
+      "tipAmplitudePixels": 5.8
+    },
+    {
+      "name": "torii paper left",
+      "anchor": [
+        188,
+        815
+      ],
+      "periodSeconds": 6,
+      "tipAmplitudePixels": 7
+    },
+    {
+      "name": "torii paper right",
+      "anchor": [
+        281,
+        822
+      ],
+      "periodSeconds": 4,
+      "tipAmplitudePixels": 6.2
+    }
+  ],
+  "mapleBoughs": [
+    {
+      "sprite": 0,
+      "root": [
+        -27,
+        590
+      ],
+      "height": 194,
+      "tipAmplitudePixels": 21,
+      "periodSeconds": 6,
+      "phaseRadians": 0.7
+    },
+    {
+      "sprite": 1,
+      "root": [
+        -58,
+        940
+      ],
+      "height": 195,
+      "tipAmplitudePixels": 28,
+      "periodSeconds": 12,
+      "phaseRadians": 2.9
+    },
+    {
+      "sprite": 0,
+      "root": [
+        -38,
+        1085
+      ],
+      "height": 270,
+      "tipAmplitudePixels": 30,
+      "periodSeconds": 12,
+      "phaseRadians": 5
+    }
+  ],
+  "airborneMaples": {
+    "count": 40,
+    "artVariations": 3,
+    "periodSeconds": 12,
+    "staggeredPhases": true,
+    "fadeInSeconds": 0.18,
+    "fadeOutSeconds": 1.3,
+    "girlUnobscured": true,
+    "previousCount": 16,
+    "fadeInLocation": "inside source maple canopy",
+    "fadeOutOnlyAfterLanding": true,
+    "flightDurationRangeSeconds": [
+      7.2,
+      8.3
+    ],
+    "landingSettleSeconds": 0.42,
+    "landingRestSeconds": 1.5,
+    "contactShadows": true,
+    "restingPositionFixedDuringFade": true,
+    "surfaces": [
+      "office_roof",
+      "stone_steps",
+      "stone_paving"
+    ],
+    "landingTargets": [
+      {
+        "leaf": 0,
+        "target": [
+          361,
+          840
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 1,
+        "target": [
+          228,
+          1013
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 2,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 3,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 4,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 5,
+        "target": [
+          390,
+          831
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 6,
+        "target": [
+          273,
+          1029
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 7,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 8,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 9,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 10,
+        "target": [
+          419,
+          822
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 11,
+        "target": [
+          326,
+          1046
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 12,
+        "target": [
+          552,
+          1258
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 13,
+        "target": [
+          355,
+          1154
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 14,
+        "target": [
+          530,
+          1217
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 15,
+        "target": [
+          447,
+          814
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 16,
+        "target": [
+          299,
+          1073
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 17,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 18,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 19,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 20,
+        "target": [
+          361,
+          840
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 21,
+        "target": [
+          258,
+          1088
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 22,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 23,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 24,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 25,
+        "target": [
+          390,
+          831
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 26,
+        "target": [
+          335,
+          1096
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 27,
+        "target": [
+          552,
+          1258
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      },
+      {
+        "leaf": 28,
+        "target": [
+          355,
+          1154
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8
+      },
+      {
+        "leaf": 29,
+        "target": [
+          530,
+          1217
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.9
+      },
+      {
+        "leaf": 30,
+        "target": [
+          419,
+          822
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.800000000000001
+      },
+      {
+        "leaf": 31,
+        "target": [
+          274,
+          1112
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.7
+      },
+      {
+        "leaf": 32,
+        "target": [
+          512,
+          1285
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.6000000000000005
+      },
+      {
+        "leaf": 33,
+        "target": [
+          452,
+          1214
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.5
+      },
+      {
+        "leaf": 34,
+        "target": [
+          410,
+          1260
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 7.4
+      },
+      {
+        "leaf": 35,
+        "target": [
+          447,
+          814
+        ],
+        "surface": "office_roof",
+        "flightSeconds": 7.3
+      },
+      {
+        "leaf": 36,
+        "target": [
+          353,
+          1120
+        ],
+        "surface": "stone_steps",
+        "flightSeconds": 7.2
+      },
+      {
+        "leaf": 37,
+        "target": [
+          290,
+          1210
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.3
+      },
+      {
+        "leaf": 38,
+        "target": [
+          372,
+          1270
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.2
+      },
+      {
+        "leaf": 39,
+        "target": [
+          250,
+          1202
+        ],
+        "surface": "stone_paving",
+        "flightSeconds": 8.1
+      }
+    ]
+  },
+  "windFixtureReport": "rank4-v5/wind-fixture-check.json",
+  "fallingLeafLifecycle": "rank4-v6/leaf-lifecycle.json",
+  "fallingLeafCheck": "rank4-v6/falling-leaf-check.json",
+  "verification": {
+    "file": "rank-4-shrine-v6.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 2400,
+    "durationMilliseconds": 120000,
+    "loop": "infinite",
+    "bytes": 121327124,
+    "regionUniqueFrames": {
+      "water": 240,
+      "office": 1293,
+      "hair_while_writing": 80,
+      "knees_feet_while_writing": 1,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "near_torii_fixed": 1,
+      "maple_canopy_high": 240,
+      "maple_canopy_low": 240,
+      "hall_bell": 160,
+      "torii_bell": 124,
+      "hall_paper_left": 196,
+      "hall_paper_right": 157,
+      "torii_paper_left": 240,
+      "torii_paper_right": 81,
+      "airborne_leaves": 240,
+      "near_stone_lantern_left": 240,
+      "near_stone_lantern_right": 82,
+      "near_hall_lantern": 87,
+      "fixed_left_wall": 1,
+      "closed_door_edge": 1,
+      "desk_edge": 1,
+      "front_rail": 1,
+      "fern_left": 120,
+      "fern_center": 240,
+      "undergrowth_right": 243,
+      "paving_light": 241,
+      "white_fox_tail": 240,
+      "yellow_fox_tail": 240,
+      "fixed_basin_rim": 1,
+      "fixed_bamboo": 1
+    },
+    "writingDirection": "upper-left to lower-right",
+    "armConnectivityFixtures": [
+      {
+        "time": 0,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6705
+      },
+      {
+        "time": 0.6,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6643
+      },
+      {
+        "time": 1.2,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6577
+      },
+      {
+        "time": 1.8,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6537
+      },
+      {
+        "time": 2.35,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6533
+      },
+      {
+        "time": 2.7,
+        "wristConnectedToShoulder": true,
+        "connectedPixels": 6635
+      }
+    ],
+    "keyPoseCount": 48,
+    "thoughtKeyPoses": 24,
+    "napKeyPoses": 24,
+    "motionAlignedInbetweens": true,
+    "armsCrossedHoldSeconds": 2.5,
+    "thoughtCueEverySeconds": 15,
+    "sleepOverridesThoughtCue": true,
+    "napIntervalSeconds": 40,
+    "napDurationSeconds": 10,
+    "napFramesPerVisit": 200,
+    "noStandingEntryExitOrStamping": true,
+    "fixedFurnitureAndBackdrop": true,
+    "rank2CorePixelsAndTimelinePreserved": true,
+    "newPlantsMoveIndependently": true,
+    "plantTipAmplitudesPixels": [
+      6,
+      7.5,
+      7
+    ],
+    "twoRestingFoxes": [
+      "ivory white",
+      "golden yellow"
+    ],
+    "foxBodiesFixed": true,
+    "whiteFoxSeatedLookingUphill": true,
+    "whiteFoxMovedForwardPixels": 65,
+    "lightingCycleSeconds": 12,
+    "lightingFinalHoldSeconds": 0.6,
+    "lightAtBoundaryMatchesStartExactly": true,
+    "foxTailsConnectedAndAnimated": true,
+    "dappledSunlightMovesWithoutResamplingStoneTexture": true,
+    "plantPeriodsSeconds": [
+      6,
+      12,
+      12
+    ],
+    "newReveal": [
+      "large near torii and sacred rope",
+      "continuous stairs behind torii",
+      "nearest upper-left shrine hall",
+      "first bay of bridge entrance",
+      "two stone lanterns"
+    ],
+    "rank3ForegroundOutsideOfficeFringePreserved": true,
+    "rank3MotionInherited": true,
+    "newLanternLightCyclesSeconds": [
+      4,
+      6,
+      6,
+      4
+    ],
+    "newToriiAndArchitectureFixed": true,
+    "futureRankSceneryHidden": true,
+    "bridgeEntranceRevealed": true,
+    "remainingBridgeConcealed": true,
+    "hiddenWorldCoveredByPaleMist": true,
+    "foregroundNotRecolored": true,
+    "revealFeatherPixels": 100,
+    "revealFeatherIsotropic": true,
+    "officeBlackExteriorRemoved": true,
+    "officeUpperCropBlendedIntoRoof": true,
+    "girlAndRoomCorePreserved": true,
+    "windObjectsConnected": true,
+    "windLoopsSeamlessly": true,
+    "newBellsAndPaperAnimateWithoutBackgroundWarp": true,
+    "mapleBoughCount": 3,
+    "mapleBoughTipAmplitudesPixels": [
+      21,
+      28,
+      30
+    ],
+    "airborneMapleLeafCount": 40,
+    "fadesOnlyAfterLanding": true,
+    "landingRestSeconds": 1.5,
+    "landingFadeSeconds": 1.3,
+    "fallingLeafCheck": "rank4-v6/falling-leaf-check.json",
+    "windFixtureReport": "rank4-v5/wind-fixture-check.json"
+  }
+}

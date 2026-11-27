@@ -1,0 +1,12 @@
+Use case: precise-object-edit.
+Make the RANK 2 base plate for this exact shrine-world scene.
+IMAGE 1: approved completed shrine, for the EXACT small lower-right office, clerk and style.
+IMAGE 2: approved RANK 1 dark plate with lower-left water and leaf, which must be carried forward.
+Output the same tall portrait canvas, camera and scale as both references, no crop or zoom.
+
+Build upon rank 1 by revealing ONLY the existing LOWER-RIGHT OFFICE NOOK from image 1: small fox-masked adult woman at her desk, open ledger and application forms, brush, red seal/ink pad, nearby small work lantern, the small wooden back wall/window behind her, document stacks under desk, stool and immediately supporting veranda. A small soft boundary around that nook fades naturally into the dark unrevealed area. Preserve the work nook's original position and tiny scale: whole woman around 5 to 7 percent of total frame height, office scene in x=72 to 100 percent, y=68 to 89 percent of frame. No giant enclosing roof, no expanded room, no enlarged woman. Retain some small supporting architecture so she isn't floating on a desk in empty space.
+Her BLACK LONG HAIR is tied with a vermilion cord. WHITE FOX MASK fully covers the FRONT of her face, not side/forehead. Ivory work sleeves, muted red hakama, reading/writing bureaucratic forms, not painting. This is calm administrative work, she holds a writing brush naturally over the ledger, other hand steadies the form. A small wooden seal stamp and red stamp-pad case are on desk.
+Preserve the approved fine textured illustrated pixel-art character rendering and daytime forest light on the nook. The dark surrounding void is an unrevealed world mask, NOT a conversion to night. Work lantern casts only a small local warm glow, not a giant halo.
+Lower LEFT water surface, single red maple leaf, fine stream and location from image 2 stay identical. Do not reveal the stone basin rim/wall or bamboo spout yet.
+Keep ALL OTHER scenery hidden under rank 1's near-black charcoal unrevealed space (#080a0d): no torii, shrine halls, paths, steps, plants, tree trunks, upper architecture, sacred rope, forest or distant mist visible. Most of the canvas stays blank dark. In particular do NOT reveal the large torii or central stairs above or between the two small revealed areas.
+Same fine illustrated pixel-like drawing, not chunky 8-bit or smooth anime. No text, UI, panels, borders or watermark. One full-canvas animation base plate with only the inherited water and new office nook visible.

@@ -1,0 +1,100 @@
+{
+  "rank": 2,
+  "worldStory": "もうひとつだけ",
+  "chapter": "小さな申請",
+  "approvedFullScene": "rank-5-redrawn-v16.png",
+  "inheritedAnimation": "rank-1-water.gif",
+  "basePlate": "rank-2-base.png",
+  "basePrompt": "rank-2-base-prompt.txt",
+  "posePrompts": "v4/prompts.json",
+  "baseAndPoseTool": "built-in image_gen",
+  "posePlates": [
+    "v4/clerk-poses.png"
+  ],
+  "cleanPlate": "v4/office-open.png",
+  "cleanPlatePrompt": "v4/secondary-prompts.json",
+  "norenCleanPlate": "v4/office-open.png",
+  "norenCleanPlatePrompt": "v4/secondary-prompts.json",
+  "animation": "rank-2-office-v5.gif",
+  "previousAnimation": "rank-2-office-v4.gif",
+  "renderer": "scripts/animate_shrine_rank2_v5.swift",
+  "width": 600,
+  "height": 1300,
+  "durationSeconds": 12,
+  "framesPerSecond": 20,
+  "frameCount": 240,
+  "loop": "infinite",
+  "camera": "fixed; same framing as ranks one and five",
+  "newlyRevealed": [
+    "fox-masked clerk",
+    "office desk",
+    "ledger and application forms",
+    "stamp and ink pad",
+    "work lantern",
+    "small supporting wall and veranda"
+  ],
+  "stillHidden": [
+    "basin rim and wall",
+    "bamboo spout",
+    "torii",
+    "shrines",
+    "plants",
+    "path",
+    "upper architecture"
+  ],
+  "motion": [
+    "continuous brush writing using rigid foreground forearm, fingers and held brush",
+    "three intact noren panels sway independently",
+    "gentle local lantern light",
+    "inherited twelve-second water and drifting leaf animation"
+  ],
+  "correction": "Removed thinking poses, standing, entry/exit and stamping. Girl remains seated and writes continuously. Brush is always held; stamp stays in its holder on bare desktop. Only foreground hand/brush/forearm moves; head, body, other hand, door, paper and desk stay fixed.",
+  "verification": {
+    "file": "rank-2-office-v5.gif",
+    "dimensions": [
+      600,
+      1300
+    ],
+    "frames": 240,
+    "durationMilliseconds": 12000,
+    "loop": "infinite",
+    "bytes": 1637997,
+    "regionUniqueFrames": {
+      "water": 240,
+      "writing_hand_and_brush": 121,
+      "brush_tip": 121,
+      "noren": 240,
+      "hidden_upper_world": 1,
+      "head": 1,
+      "seated_body": 1,
+      "closed_door": 1,
+      "resting_seal": 1,
+      "paper_away_from_brush": 1,
+      "desk_edge": 1,
+      "front_rail": 1
+    },
+    "continuousWriting": true,
+    "noThinkingOrDepartureOrStamping": true,
+    "fixedBackgroundPaperAndFurniture": true
+  },
+  "verificationReport": "rank-2-verification-v5.json",
+  "nextRank": "Reveal the basin surround and nearby plants while inheriting the water and office animations. Keep the large torii and upper shrine layers hidden.",
+  "scenePlate": "v4/office-clean.png",
+  "scenePlatePlacement": {
+    "sourceCrop": [
+      555,
+      1210,
+      297,
+      450
+    ],
+    "originalCanvas": [
+      852,
+      1846
+    ]
+  },
+  "heldToolCleanPlate": "v4/office-no-tools.png",
+  "preview": "rank-2-first-frame-v5.png",
+  "motionCheck": "rank-2-writing-check-v5.png",
+  "animationReport": "rank-2-animation-report-v5.txt",
+  "sourceArtNote": "Reuses existing v4 imagegen art; v5 animation modifies Swift foreground rig only."
+}

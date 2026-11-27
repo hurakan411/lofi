@@ -1,0 +1,32 @@
+{
+  "file": "rank-5-preview-small-v1.gif",
+  "bytes": 3347902,
+  "frames": 120,
+  "durationSeconds": 12,
+  "loop": "infinite",
+  "completeWorldVisible": true,
+  "leafCount": 40,
+  "leavesFadeAfterSurfaceContact": true,
+  "regionSeamChecks": {
+    "upper_canopy": {
+      "seamMeanDifference": 0.21449494949494952,
+      "maxAdjacentMeanDifference": 0.39262626262626266
+    },
+    "tree_paper": {
+      "seamMeanDifference": 0.46808163265306124,
+      "maxAdjacentMeanDifference": 0.9030022675736961
+    },
+    "red_maples": {
+      "seamMeanDifference": 2.0343822843822843,
+      "maxAdjacentMeanDifference": 3.3573737373737376
+    },
+    "landed_leaves": {
+      "seamMeanDifference": 0.6098952727521227,
+      "maxAdjacentMeanDifference": 1.5278560811849726
+    },
+    "full": {
+      "seamMeanDifference": 0.5592509496676163,
+      "maxAdjacentMeanDifference": 0.8344741215574549
+    }
+  }
+}
